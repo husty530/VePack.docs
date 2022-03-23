@@ -9,10 +9,6 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -51,22 +47,6 @@ $(function() {
 </script>
 <div id="main-nav"></div>
 </div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('functions_g.html',''); initResizable(); });
-/* @license-end */
-</script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -95,11 +75,17 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>GetClockwiseAngleFrom()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_utilities_1_1_geometry_1_1_vector2_d.html#ad7b78e4747d4dce7e5e2192127fb63f5">VePack.Utilities.Geometry.Vector2D</a></li>
 <li>GetControlQuantity()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_lqr.html#afd5ca8482c9bcd10d7f4f3d17d81dc50">VePack.Plugin.Controllers.ModelBased.Lqr</a>, <a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_pfc.html#a78841e2bff745dbf7b1e37f0ba296de8">VePack.Plugin.Controllers.ModelBased.Pfc</a>, <a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_cgmres_solver.html#ab9d34e5c58632e67c2287f37080a1384">VePack.Plugin.Controllers.ModelBased.Steering.Nmpc.NmpcCgmresSolver</a>, <a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_free_1_1_pid.html#ad65806676f962b812961064b4f02abd9">VePack.Plugin.Controllers.ModelFree.Pid</a></li>
 <li>GetCostateDot()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_geometric_steering_model.html#ab6ac601fcab5366c541a1f7089be4f5c">VePack.Plugin.Controllers.ModelBased.Steering.Nmpc.NmpcGeometricSteeringModel</a>, <a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_model.html#a348b9c2a2289230b3b307f8498ffede3">VePack.Plugin.Controllers.ModelBased.Steering.Nmpc.NmpcModel</a></li>
+<li>GetDistanceTo()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html#a6aec63b9ecbbc7b68fdcc01170d0ecc6">VePack.Plugin.Navigation.NaviHelper</a></li>
 <li>GetEnumerator()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_path_data.html#ab10c0ac2d9bf05f33075c983d845b584">VePack.Plugin.Navigation.UtmPathData</a>, <a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_path_data.html#a2e6e70410249783d57b1f28f503bac60">VePack.Plugin.Navigation.WgsPathData</a></li>
 <li>GetHamiltonianDotWithConstraint()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_geometric_steering_model.html#ae8013bd39d8646ff50fef743dc7be8d9">VePack.Plugin.Controllers.ModelBased.Steering.Nmpc.NmpcGeometricSteeringModel</a>, <a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_model.html#ae6b419f8fd9e3405a8c665e3a0b54cad">VePack.Plugin.Controllers.ModelBased.Steering.Nmpc.NmpcModel</a></li>
+<li>GetHeadingError()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html#abd65022d9acdc43cbd87afb3ac9463be">VePack.Plugin.Navigation.NaviHelper</a></li>
 <li>GetIntersection()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_utilities_1_1_geometry_1_1_line2_d.html#accf9443126c30a505df16b11d3f687c3">VePack.Utilities.Geometry.Line2D</a></li>
 <li>GetLapTime()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_utilities_1_1_lap_timer.html#ac5fcccab505c6bed5eaa676c2da0faa9">VePack.Utilities.LapTimer</a></li>
+<li>GetLateralError()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html#a0c72843362d79d58f074e0ce4c1214d5">VePack.Plugin.Navigation.NaviHelper</a></li>
 <li>GetLength()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_utilities_1_1_multidimensional_array.html#a9c62ce6d7ce981635f73f351140b7aa1">VePack.Utilities.MultidimensionalArray</a></li>
+<li>GetLookAheadPoint()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html#ad1070a984f6cb954efdbd5190914b649">VePack.Plugin.Navigation.NaviHelper</a></li>
+<li>GetNearestLineSegmentIndex()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html#ab48019c4ce4bae2d062fdfe7691fdc71">VePack.Plugin.Navigation.NaviHelper</a></li>
+<li>GetNearestPath()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html#a9629613f09bc393116c1f333be161dcd">VePack.Plugin.Navigation.NaviHelper</a></li>
 <li>GetNearestPoint()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_utilities_1_1_geometry_1_1_line_segment2_d.html#ad05cd352db3a968b25a7c5c7ac24d982">VePack.Utilities.Geometry.LineSegment2D</a></li>
 <li>GetNextState()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_linear_state_model.html#a3364f9e739feb05f4af15447d41351a1">VePack.Plugin.Controllers.ModelBased.LinearStateModel</a></li>
 <li>GetObject()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_utilities_1_1_object_pool.html#a2507582379875a2566896fa01caf3082">VePack.Utilities.ObjectPool&lt; T &gt;</a></li>
@@ -107,8 +93,13 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>GetPerpendicularLine()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_utilities_1_1_geometry_1_1_line2_d.html#a12ab72a905e499ab8435358f71237a8b">VePack.Utilities.Geometry.Line2D</a></li>
 <li>GetPortNames()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_utilities_1_1_i_o_1_1_serial_port.html#adef4abc08a3311ca0cc9d7aa912bce84">VePack.Utilities.IO.SerialPort</a></li>
 <li>GetProgress()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_map_navigator.html#a725f6db2f0f490f3eb491ec73d686141">VePack.Plugin.Navigation.MapNavigator</a></li>
+<li>GetReferencePoint()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html#aae969ef2ff0ed1dcd2c592ab093c579b">VePack.Plugin.Navigation.NaviHelper</a></li>
 <li>GetReverse()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_path_data.html#ae2ed8ba97a3b86d0e8222ed3d6f4bb51">VePack.Plugin.Navigation.UtmPathData</a>, <a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_path_data.html#a4e2bb5d6a3e46714edc848e2483444a5">VePack.Plugin.Navigation.WgsPathData</a>, <a class="el" href="class_ve_pack_1_1_utilities_1_1_geometry_1_1_arc2_d.html#a3f5a59be345fe8179124341a660e8a5d">VePack.Utilities.Geometry.Arc2D</a>, <a class="el" href="class_ve_pack_1_1_utilities_1_1_geometry_1_1_line_segment2_d.html#aa3781babd52e04601a292efdaedf5510">VePack.Utilities.Geometry.LineSegment2D</a></li>
+<li>GetRotatedMap()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html#a7c8847abbc859982d4e29aba41466d86">VePack.Plugin.Navigation.NaviHelper</a></li>
+<li>GetRotatedPath()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html#a14e98ca47e5efe99ed1cf596d7042285">VePack.Plugin.Navigation.NaviHelper</a></li>
 <li>GetSegment()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_path_data.html#a7b0c1b1fbdbee5b9ec4e5c00a4770592">VePack.Plugin.Navigation.UtmPathData</a></li>
+<li>GetSlidedMap()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html#a4f5a6f58381e6b3fa88cef8161bab0e8">VePack.Plugin.Navigation.NaviHelper</a></li>
+<li>GetSlidedPath()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html#a7acbb4c7c0f1ff4beb482825bc7f538a">VePack.Plugin.Navigation.NaviHelper</a></li>
 <li>GetStateDot()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_geometric_steering_model.html#a94d98f43c9d1e8ed524d928bb8beb851">VePack.Plugin.Controllers.ModelBased.Steering.Nmpc.NmpcGeometricSteeringModel</a>, <a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_model.html#aeee460055015c1aec4353d762c660d52">VePack.Plugin.Controllers.ModelBased.Steering.Nmpc.NmpcModel</a></li>
 <li>GetSteeringAngle()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_steering_controller.html#a3da9c07ec640501774ff57279884fc88">VePack.Plugin.Controllers.ModelBased.Steering.Nmpc.NmpcSteeringController</a>, <a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_pfc_steering_controller.html#ad2e93804ae9eae4c78d5dca3b78e7ef6">VePack.Plugin.Controllers.ModelBased.Steering.PfcSteeringController</a>, <a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_free_1_1_pure_pursuit.html#af772da29e8e8b82cb03c4be03fc8edcb">VePack.Plugin.Controllers.ModelFree.PurePursuit</a></li>
 <li>GetStream()&#160;:&#160;<a class="el" href="interface_ve_pack_1_1_utilities_1_1_i_o_1_1_i_communicator.html#aeac2e5899982c6e8fa78c50a40ea4162">VePack.Utilities.IO.ICommunicator</a>, <a class="el" href="class_ve_pack_1_1_utilities_1_1_i_o_1_1_named_pipe_client.html#a2aef833f7273f81cc75f9d756f63618d">VePack.Utilities.IO.NamedPipeClient</a>, <a class="el" href="class_ve_pack_1_1_utilities_1_1_i_o_1_1_named_pipe_server.html#abe6c4017ee4b3cd72f8b2135daf5eac2">VePack.Utilities.IO.NamedPipeServer</a>, <a class="el" href="class_ve_pack_1_1_utilities_1_1_i_o_1_1_serial_port.html#a19979778332dcc6d95bea699397b5606">VePack.Utilities.IO.SerialPort</a>, <a class="el" href="class_ve_pack_1_1_utilities_1_1_i_o_1_1_tcp_socket_client.html#a00ece169b57c802f218c639c6223897e">VePack.Utilities.IO.TcpSocketClient</a>, <a class="el" href="class_ve_pack_1_1_utilities_1_1_i_o_1_1_tcp_socket_server.html#abd06320ecda93b39061b193a9f8a455b">VePack.Utilities.IO.TcpSocketServer</a></li>
@@ -121,12 +112,9 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>GradW&#160;:&#160;<a class="el" href="class_ve_pack_1_1_utilities_1_1_neural_network_1_1_affine.html#a202877cc9969b16a22796a01631e7e5e">VePack.Utilities.NeuralNetwork.Affine</a></li>
 </ul>
 </div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
+</small></address>
 </body>
 </html>

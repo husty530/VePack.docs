@@ -19,8 +19,11 @@ var searchData=
   ['linesegment2d_16',['LineSegment2D',['../class_ve_pack_1_1_utilities_1_1_geometry_1_1_line_segment2_d.html#a1901910ff087b16d67310d2ac1656f8a',1,'VePack.Utilities.Geometry.LineSegment2D.LineSegment2D()'],['../class_ve_pack_1_1_utilities_1_1_geometry_1_1_line_segment2_d.html',1,'VePack.Utilities.Geometry.LineSegment2D']]],
   ['linesegment2d_2ecs_17',['LineSegment2D.cs',['../_line_segment2_d_8cs.html',1,'']]],
   ['load_18',['Load',['../class_ve_pack_1_1_utilities_1_1_neural_network_1_1_network_graph.html#a3e6e06a39e4c976cae0fb0f5f1377621',1,'VePack::Utilities::NeuralNetwork::NetworkGraph']]],
-  ['longitude_19',['Longitude',['../class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_point_data.html#a65534692a07078c16e85a23d7070418e',1,'VePack::Plugin::Navigation::WgsPointData']]],
-  ['lookaheaddistance_20',['LookAheadDistance',['../class_ve_pack_1_1_plugin_1_1_navigation_1_1_map_navigator.html#a890e7eca86b00022c69db272e290a719',1,'VePack::Plugin::Navigation::MapNavigator']]],
-  ['lqr_21',['Lqr',['../class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_lqr.html#ae33ee3d8260bd763fe7da014ede0b13a',1,'VePack.Plugin.Controllers.ModelBased.Lqr.Lqr()'],['../class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_lqr.html',1,'VePack.Plugin.Controllers.ModelBased.Lqr']]],
-  ['lqr_2ecs_22',['Lqr.cs',['../_lqr_8cs.html',1,'']]]
+  ['loadmapfromfile_19',['LoadMapFromFile',['../class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html#aab40f6bef680511bafab121a784ec029',1,'VePack::Plugin::Navigation::NaviHelper']]],
+  ['loadmapfromjmapformattext_20',['LoadMapFromJmapFormatText',['../class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html#aebfa81b54e1de91880d9a617b5d2baf8',1,'VePack::Plugin::Navigation::NaviHelper']]],
+  ['loadmapfrommapformattext_21',['LoadMapFromMapFormatText',['../class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html#a33cd7fc163bcddb7f4ea1423d20abfe5',1,'VePack::Plugin::Navigation::NaviHelper']]],
+  ['longitude_22',['Longitude',['../class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_point_data.html#a65534692a07078c16e85a23d7070418e',1,'VePack::Plugin::Navigation::WgsPointData']]],
+  ['lookaheaddistance_23',['LookAheadDistance',['../class_ve_pack_1_1_plugin_1_1_navigation_1_1_map_navigator.html#a890e7eca86b00022c69db272e290a719',1,'VePack::Plugin::Navigation::MapNavigator']]],
+  ['lqr_24',['Lqr',['../class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_lqr.html#ae33ee3d8260bd763fe7da014ede0b13a',1,'VePack.Plugin.Controllers.ModelBased.Lqr.Lqr()'],['../class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_lqr.html',1,'VePack.Plugin.Controllers.ModelBased.Lqr']]],
+  ['lqr_2ecs_25',['Lqr.cs',['../_lqr_8cs.html',1,'']]]
 ];

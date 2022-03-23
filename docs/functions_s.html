@@ -9,10 +9,6 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -51,22 +47,6 @@ $(function() {
 </script>
 <div id="main-nav"></div>
 </div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('functions_s.html',''); initResizable(); });
-/* @license-end */
-</script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -87,6 +67,7 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <h3><a id="index_s" name="index_s"></a>- s -</h3><ul>
 <li>Save()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_utilities_1_1_neural_network_1_1_network_graph.html#af53c5599556a315f1b8a1c7db030a7d2">VePack.Utilities.NeuralNetwork.NetworkGraph</a></li>
 <li>SaveModel()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_n_n_steering_model.html#a963f05ce8bc7805fa0857bfd327b53fd">VePack.Plugin.Controllers.ModelBased.Steering.NNSteeringModel</a></li>
+<li>SearchPort()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_utilities_1_1_i_o_1_1_port_manager.html#a7ecabc2ea4f3d3637710df5b751243b7">VePack.Utilities.IO.PortManager</a></li>
 <li>Serialize()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_utilities_1_1_neural_network_1_1_ada_grad.html#a335b0e437e8d6e71b0a49556064fe2a4">VePack.Utilities.NeuralNetwork.AdaGrad</a>, <a class="el" href="class_ve_pack_1_1_utilities_1_1_neural_network_1_1_adam.html#a2b4156feb579885d2e9e24e3e58ad2fa">VePack.Utilities.NeuralNetwork.Adam</a>, <a class="el" href="class_ve_pack_1_1_utilities_1_1_neural_network_1_1_affine.html#a548420f2f53f1b8f6cd33a8a55b7b097">VePack.Utilities.NeuralNetwork.Affine</a>, <a class="el" href="interface_ve_pack_1_1_utilities_1_1_neural_network_1_1_i_layer.html#afddc3fd3d0ad3b195af96d24fda78116">VePack.Utilities.NeuralNetwork.ILayer</a>, <a class="el" href="interface_ve_pack_1_1_utilities_1_1_neural_network_1_1_i_optimizer.html#a93f177da0fc1f71cb73e047c8dc8e91b">VePack.Utilities.NeuralNetwork.IOptimizer</a>, <a class="el" href="class_ve_pack_1_1_utilities_1_1_neural_network_1_1_leaky_relu.html#a7d10f2ad1220d86c2722eb8a9f3362d6">VePack.Utilities.NeuralNetwork.LeakyRelu</a>, <a class="el" href="class_ve_pack_1_1_utilities_1_1_neural_network_1_1_optimizer_base.html#a7b43a32a8ca51befc4d0a52f25d99210">VePack.Utilities.NeuralNetwork.OptimizerBase</a>, <a class="el" href="class_ve_pack_1_1_utilities_1_1_neural_network_1_1_relu.html#a2ba0b61ad8c29c5a65995249e8e4b175">VePack.Utilities.NeuralNetwork.Relu</a>, <a class="el" href="class_ve_pack_1_1_utilities_1_1_neural_network_1_1_sgd.html#a89cd5d50e4af0889a4e4584b141431a9">VePack.Utilities.NeuralNetwork.Sgd</a>, <a class="el" href="class_ve_pack_1_1_utilities_1_1_neural_network_1_1_sigmoid.html#af7e23748c6a26f96a5a2b79c4e70c1e4">VePack.Utilities.NeuralNetwork.Sigmoid</a>, <a class="el" href="class_ve_pack_1_1_utilities_1_1_neural_network_1_1_tanh.html#a82662b627a571763eb7add27aa815c29">VePack.Utilities.NeuralNetwork.Tanh</a>, <a class="el" href="class_ve_pack_1_1_utilities_1_1_neural_network_1_1_unit.html#a5c42cf31fe228236505f81c6a09807a1">VePack.Utilities.NeuralNetwork.Unit</a></li>
 <li>SerialPort()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_utilities_1_1_i_o_1_1_serial_port.html#a0a3e17ca856983715278a7bbe06a1573">VePack.Utilities.IO.SerialPort</a></li>
 <li>Set()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_connectors_1_1_can_1_1_can_base.html#aae5adaffc95b6faa8ea66115663be7d1">VePack.Connectors.Can.CanBase&lt; TOperation, TInformation &gt;</a>, <a class="el" href="interface_ve_pack_1_1_connectors_1_1_i_operation_sender.html#a0ea3a97de5875c0cf9f51b4c587e3eec">VePack.Connectors.IOperationSender&lt; T &gt;</a>, <a class="el" href="class_ve_pack_1_1_connectors_1_1_text_stream_1_1_text_stream_base.html#a9f86477f74258b2f7724da34f2964cfa">VePack.Connectors.TextStream.TextStreamBase&lt; TOperation, TInformation &gt;</a></li>
@@ -101,19 +82,20 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>ShortenLast()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_path_data.html#a102fd5e7c793505db92438a3a270cdf1">VePack.Plugin.Navigation.UtmPathData</a></li>
 <li>Shuttle&#160;:&#160;<a class="el" href="class_ve_pack_1_1_vehicles_1_1_kubota_tractor_1_1_operation_data.html#adbcf41e2b5d158b5a542e67c521df354">VePack.Vehicles.KubotaTractor.OperationData</a>, <a class="el" href="class_ve_pack_1_1_vehicles_1_1_yanmar_tractor_1_1_operation_data.html#a3f4474461329f8f191cd65e75e64a5ea">VePack.Vehicles.YanmarTractor.OperationData</a></li>
 <li>Slope&#160;:&#160;<a class="el" href="class_ve_pack_1_1_utilities_1_1_geometry_1_1_line2_d.html#a98385b10712a6f686e4d7a64f9b62045">VePack.Utilities.Geometry.Line2D</a></li>
+<li>SolveByArimotoPotterAlgorithm()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_riccati_equation.html#a292908674fe7107f0b02efe267590d37">VePack.Plugin.Controllers.ModelBased.RiccatiEquation</a></li>
+<li>SolveByIterationAlgorithm()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_riccati_equation.html#a77b726629301fb6bf3d7ffd4468ce0a2">VePack.Plugin.Controllers.ModelBased.RiccatiEquation</a></li>
 <li>SpeedLever&#160;:&#160;<a class="el" href="class_ve_pack_1_1_vehicles_1_1_kubota_rice_transplanter_1_1_operation_data.html#a8a0230fb1f640e8bc40cda660b25d5b5">VePack.Vehicles.KubotaRiceTransplanter.OperationData</a></li>
+<li>STANDARD&#160;:&#160;<a class="el" href="class_ve_pack_1_1_connectors_1_1_can_1_1_lawicel_1_1_can_usb_option.html#a2226e06188ebb56ee64d78dcf680fbbb">VePack.Connectors.Can.Lawicel.CanUsbOption</a></li>
 <li>Start&#160;:&#160;<a class="el" href="class_ve_pack_1_1_utilities_1_1_geometry_1_1_arc2_d.html#aee6fddb148656b52e583cebbb9a656f4">VePack.Utilities.Geometry.Arc2D</a>, <a class="el" href="class_ve_pack_1_1_utilities_1_1_geometry_1_1_line_segment2_d.html#a5f056b6ce4a83209173818e9c2659e61">VePack.Utilities.Geometry.LineSegment2D</a></li>
 <li>Status&#160;:&#160;<a class="el" href="class_ve_pack_1_1_connectors_1_1_can_1_1_lawicel_1_1_can_usb_adapter.html#a0aacd8e4b7684a3f74edf83c68f46c28">VePack.Connectors.Can.Lawicel.CanUsbAdapter</a></li>
+<li>StdDev&lt; T &gt;()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_utilities_1_1_math_ex.html#a62e90304ffb6a63a6b938381a6a188ff">VePack.Utilities.MathEx</a></li>
 <li>SteeringAngle&#160;:&#160;<a class="el" href="class_ve_pack_1_1_vehicles_1_1_kubota_rice_transplanter_1_1_operation_data.html#a160054ae32797db386049bb700f305cd">VePack.Vehicles.KubotaRiceTransplanter.OperationData</a>, <a class="el" href="class_ve_pack_1_1_vehicles_1_1_kubota_tractor_1_1_operation_data.html#a70074ab97b556dca11455b5912d53c0f">VePack.Vehicles.KubotaTractor.OperationData</a>, <a class="el" href="class_ve_pack_1_1_vehicles_1_1_toyota_electric_vehicle_1_1_operation_data.html#a908d4e172c8d21dfd071a0ce8c1ea043">VePack.Vehicles.ToyotaElectricVehicle.OperationData</a>, <a class="el" href="class_ve_pack_1_1_vehicles_1_1_yanmar_tractor_1_1_operation_data.html#ad0516d689df56a275df8eb733033beb4">VePack.Vehicles.YanmarTractor.OperationData</a></li>
 <li>SwapPath()&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_map_navigator.html#a4e65d91412cac84dc9cc71db1639345d">VePack.Plugin.Navigation.MapNavigator</a></li>
 </ul>
 </div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
+</small></address>
 </body>
 </html>
