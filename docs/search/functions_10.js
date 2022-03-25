@@ -18,5 +18,6 @@ var searchData=
   ['solvebyarimotopotteralgorithm_15',['SolveByArimotoPotterAlgorithm',['../class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_riccati_equation.html#a292908674fe7107f0b02efe267590d37',1,'VePack::Plugin::Controllers::ModelBased::RiccatiEquation']]],
   ['solvebyiterationalgorithm_16',['SolveByIterationAlgorithm',['../class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_riccati_equation.html#a77b726629301fb6bf3d7ffd4468ce0a2',1,'VePack::Plugin::Controllers::ModelBased::RiccatiEquation']]],
   ['stddev_3c_20t_20_3e_17',['StdDev&lt; T &gt;',['../class_ve_pack_1_1_utilities_1_1_math_ex.html#a62e90304ffb6a63a6b938381a6a188ff',1,'VePack::Utilities::MathEx']]],
-  ['swappath_18',['SwapPath',['../class_ve_pack_1_1_plugin_1_1_navigation_1_1_map_navigator.html#a4e65d91412cac84dc9cc71db1639345d',1,'VePack::Plugin::Navigation::MapNavigator']]]
+  ['subtract_18',['Subtract',['../struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html#ab48901a6f063bb3012e48b11450ae72c',1,'VePack::Utilities::Geometry::Angle']]],
+  ['swappath_19',['SwapPath',['../class_ve_pack_1_1_plugin_1_1_navigation_1_1_map_navigator.html#a4e65d91412cac84dc9cc71db1639345d',1,'VePack::Plugin::Navigation::MapNavigator']]]
 ];

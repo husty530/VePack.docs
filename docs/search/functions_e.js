@@ -7,12 +7,11 @@ var searchData=
   ['pfc_4',['Pfc',['../class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_pfc.html#ad1695f1153b81b1c8fe3676c051c8559',1,'VePack::Plugin::Controllers::ModelBased::Pfc']]],
   ['pfcsteeringcontroller_5',['PfcSteeringController',['../class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_pfc_steering_controller.html#ab17b103ed3871f58599bd04e6ef7ed36',1,'VePack::Plugin::Controllers::ModelBased::Steering::PfcSteeringController']]],
   ['pid_6',['Pid',['../class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_free_1_1_pid.html#abc3cf00e641771a4f8173c67f9f285a5',1,'VePack::Plugin::Controllers::ModelFree::Pid']]],
-  ['plus_7',['Plus',['../struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html#a842c0f805b588e8c942cd2e187004f50',1,'VePack::Utilities::Geometry::Angle']]],
-  ['plusat_8',['PlusAt',['../class_ve_pack_1_1_utilities_1_1_multidimensional_array.html#ac1d1f5224069cfbf87d5c5b03718f0a5',1,'VePack::Utilities::MultidimensionalArray']]],
-  ['point2d_9',['Point2D',['../class_ve_pack_1_1_utilities_1_1_geometry_1_1_point2_d.html#a4697a1a24182b7955e180dacbfcbd671',1,'VePack::Utilities::Geometry::Point2D']]],
-  ['point3d_10',['Point3D',['../class_ve_pack_1_1_utilities_1_1_geometry_1_1_point3_d.html#a6c43152611e7afdeaf85ff2cc5331c58',1,'VePack::Utilities::Geometry::Point3D']]],
-  ['predictadjointtrajectory_11',['PredictAdjointTrajectory',['../class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_model.html#a3a6b27e021e3bb30c0281047cfdaedd6',1,'VePack::Plugin::Controllers::ModelBased::Steering::Nmpc::NmpcModel']]],
-  ['predictdynamics_12',['PredictDynamics',['../class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_n_n_steering_model.html#aa0d96dee1e14e0b55f2babc405a9914f',1,'VePack::Plugin::Controllers::ModelBased::Steering::NNSteeringModel']]],
-  ['predicttrajectory_13',['PredictTrajectory',['../class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_model.html#ad250da2d67052df63a31b75b86cbab55',1,'VePack::Plugin::Controllers::ModelBased::Steering::Nmpc::NmpcModel']]],
-  ['purepursuit_14',['PurePursuit',['../class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_free_1_1_pure_pursuit.html#a6896c9bbaf439cee2a87cb59a298b7de',1,'VePack::Plugin::Controllers::ModelFree::PurePursuit']]]
+  ['plusat_7',['PlusAt',['../class_ve_pack_1_1_utilities_1_1_multidimensional_array.html#ac1d1f5224069cfbf87d5c5b03718f0a5',1,'VePack::Utilities::MultidimensionalArray']]],
+  ['point2d_8',['Point2D',['../class_ve_pack_1_1_utilities_1_1_geometry_1_1_point2_d.html#a4697a1a24182b7955e180dacbfcbd671',1,'VePack::Utilities::Geometry::Point2D']]],
+  ['point3d_9',['Point3D',['../class_ve_pack_1_1_utilities_1_1_geometry_1_1_point3_d.html#a6c43152611e7afdeaf85ff2cc5331c58',1,'VePack::Utilities::Geometry::Point3D']]],
+  ['predictadjointtrajectory_10',['PredictAdjointTrajectory',['../class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_model.html#a3a6b27e021e3bb30c0281047cfdaedd6',1,'VePack::Plugin::Controllers::ModelBased::Steering::Nmpc::NmpcModel']]],
+  ['predictdynamics_11',['PredictDynamics',['../class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_n_n_steering_model.html#aa0d96dee1e14e0b55f2babc405a9914f',1,'VePack::Plugin::Controllers::ModelBased::Steering::NNSteeringModel']]],
+  ['predicttrajectory_12',['PredictTrajectory',['../class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_model.html#ad250da2d67052df63a31b75b86cbab55',1,'VePack::Plugin::Controllers::ModelBased::Steering::Nmpc::NmpcModel']]],
+  ['purepursuit_13',['PurePursuit',['../class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_free_1_1_pure_pursuit.html#a6896c9bbaf439cee2a87cb59a298b7de',1,'VePack::Plugin::Controllers::ModelFree::PurePursuit']]]
 ];
