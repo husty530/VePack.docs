@@ -6,6 +6,9 @@ var dir_066eeba379669a2fecc6f09bf9235bba =
     [ "Exception.cs", "_exception_8cs.html", [
       [ "VePack.Utilities.VePackInternalException", "class_ve_pack_1_1_utilities_1_1_ve_pack_internal_exception.html", "class_ve_pack_1_1_utilities_1_1_ve_pack_internal_exception" ]
     ] ],
+    [ "Freq.cs", "_freq_8cs.html", [
+      [ "VePack.Utilities.Freq", "struct_ve_pack_1_1_utilities_1_1_freq.html", "struct_ve_pack_1_1_utilities_1_1_freq" ]
+    ] ],
     [ "LapTimer.cs", "_lap_timer_8cs.html", [
       [ "VePack.Utilities.LapTimer", "class_ve_pack_1_1_utilities_1_1_lap_timer.html", "class_ve_pack_1_1_utilities_1_1_lap_timer" ]
     ] ],

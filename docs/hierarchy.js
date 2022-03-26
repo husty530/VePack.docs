@@ -14,6 +14,7 @@ var hierarchy =
       [ "VePack.Utilities.VePackInternalException", "class_ve_pack_1_1_utilities_1_1_ve_pack_internal_exception.html", null ]
     ] ],
     [ "VePack.Plugin.Filters.FirFilter", "class_ve_pack_1_1_plugin_1_1_filters_1_1_fir_filter.html", null ],
+    [ "VePack.Utilities.Freq", "struct_ve_pack_1_1_utilities_1_1_freq.html", null ],
     [ "IDisposable", null, [
       [ "VePack.Connectors.Can.Lawicel.CanUsbAdapter", "class_ve_pack_1_1_connectors_1_1_can_1_1_lawicel_1_1_can_usb_adapter.html", null ],
       [ "VePack.Connectors.IInformationReceiver< T >", "interface_ve_pack_1_1_connectors_1_1_i_information_receiver.html", null ],

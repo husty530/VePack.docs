@@ -5,7 +5,7 @@ var searchData=
   ['namedpipeclient_2ecs_2',['NamedPipeClient.cs',['../_named_pipe_client_8cs.html',1,'']]],
   ['namedpipeserver_3',['NamedPipeServer',['../class_ve_pack_1_1_utilities_1_1_i_o_1_1_named_pipe_server.html#a5c4678b883461d04fc0647fc391cec05',1,'VePack.Utilities.IO.NamedPipeServer.NamedPipeServer()'],['../class_ve_pack_1_1_utilities_1_1_i_o_1_1_named_pipe_server.html',1,'VePack.Utilities.IO.NamedPipeServer']]],
   ['namedpipeserver_2ecs_4',['NamedPipeServer.cs',['../_named_pipe_server_8cs.html',1,'']]],
-  ['navigation_2eassemblyinfo_2ecs_5',['Navigation.AssemblyInfo.cs',['../_navigation_8_assembly_info_8cs.html',1,'']]],
+  ['navigation_2eassemblyinfo_2ecs_5',['Navigation.AssemblyInfo.cs',['../net5_80_2_navigation_8_assembly_info_8cs.html',1,'(Global Namespace)'],['../net6_80_2_navigation_8_assembly_info_8cs.html',1,'(Global Namespace)']]],
   ['navihelper_6',['NaviHelper',['../class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html',1,'VePack::Plugin::Navigation']]],
   ['navihelper_2ecs_7',['NaviHelper.cs',['../_navi_helper_8cs.html',1,'']]],
   ['networkgraph_8',['NetworkGraph',['../class_ve_pack_1_1_utilities_1_1_neural_network_1_1_network_graph.html#a3758ec60d27223021e28c931756b9d35',1,'VePack.Utilities.NeuralNetwork.NetworkGraph.NetworkGraph()'],['../class_ve_pack_1_1_utilities_1_1_neural_network_1_1_network_graph.html',1,'VePack.Utilities.NeuralNetwork.NetworkGraph']]],
