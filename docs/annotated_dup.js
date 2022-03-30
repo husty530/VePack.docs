@@ -36,6 +36,7 @@ var annotated_dup =
                 [ "NmpcModel", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_model.html", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_model" ],
                 [ "NmpcSteeringController", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_steering_controller.html", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_steering_controller" ]
               ] ],
+              [ "CmacSteeringModel", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_cmac_steering_model.html", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_cmac_steering_model" ],
               [ "GeometricSteeringModel", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_geometric_steering_model.html", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_geometric_steering_model" ],
               [ "NNSteeringModel", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_n_n_steering_model.html", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_n_n_steering_model" ],
               [ "PfcSteeringController", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_pfc_steering_controller.html", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_pfc_steering_controller" ],
@@ -68,6 +69,11 @@ var annotated_dup =
         ] ]
       ] ],
       [ "Utilities", "namespace_ve_pack_1_1_utilities.html", [
+        [ "Cmac", "namespace_ve_pack_1_1_utilities_1_1_cmac.html", [
+          [ "CmacBundler", "class_ve_pack_1_1_utilities_1_1_cmac_1_1_cmac_bundler.html", "class_ve_pack_1_1_utilities_1_1_cmac_1_1_cmac_bundler" ],
+          [ "CmacNetwork", "class_ve_pack_1_1_utilities_1_1_cmac_1_1_cmac_network.html", "class_ve_pack_1_1_utilities_1_1_cmac_1_1_cmac_network" ],
+          [ "CmacTable", "class_ve_pack_1_1_utilities_1_1_cmac_1_1_cmac_table.html", "class_ve_pack_1_1_utilities_1_1_cmac_1_1_cmac_table" ]
+        ] ],
         [ "Geometry", "namespace_ve_pack_1_1_utilities_1_1_geometry.html", [
           [ "Angle", "struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html", "struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle" ],
           [ "Arc2D", "class_ve_pack_1_1_utilities_1_1_geometry_1_1_arc2_d.html", "class_ve_pack_1_1_utilities_1_1_geometry_1_1_arc2_d" ],
