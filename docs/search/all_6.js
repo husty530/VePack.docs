@@ -27,5 +27,7 @@ var searchData=
   ['fov_5f60_24',['FOV_60',['../namespace_ve_pack_1_1_connectors_1_1_lidar2_d.html#a1ff5088adfccca0b6bab5178e2e57c7fa0ea2486954320061b88f94562166bba6',1,'VePack::Connectors::Lidar2D']]],
   ['fov_5f90_25',['FOV_90',['../namespace_ve_pack_1_1_connectors_1_1_lidar2_d.html#a1ff5088adfccca0b6bab5178e2e57c7fa11140ea6bd117685a0f47b41aee02646',1,'VePack::Connectors::Lidar2D']]],
   ['freq_26',['Freq',['../struct_ve_pack_1_1_utilities_1_1_freq.html#ae880c5606f5d4cfef32c7f9115a5b056',1,'VePack.Utilities.Freq.Freq(double heltz)'],['../struct_ve_pack_1_1_utilities_1_1_freq.html#a6bdcc3019654c9058091596a307d4fc4',1,'VePack.Utilities.Freq.Freq(TimeSpan timeSpan)'],['../struct_ve_pack_1_1_utilities_1_1_freq.html',1,'VePack.Utilities.Freq']]],
-  ['freq_2ecs_27',['Freq.cs',['../_freq_8cs.html',1,'']]]
+  ['freq_2ecs_27',['Freq.cs',['../_freq_8cs.html',1,'']]],
+  ['fromdegree_28',['FromDegree',['../struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html#a9f5a062bf9d369491c5174ef369d2d3e',1,'VePack::Utilities::Geometry::Angle']]],
+  ['fromradian_29',['FromRadian',['../struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html#ab0efda0f0788be992b113bc90d795264',1,'VePack::Utilities::Geometry::Angle']]]
 ];

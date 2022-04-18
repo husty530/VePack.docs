@@ -9,10 +9,6 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -50,23 +46,6 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_n_n_steering_model.html',''); initResizable(); });
-/* @license-end */
-</script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -81,12 +60,17 @@ $(document).ready(function(){initNavTree('class_ve_pack_1_1_plugin_1_1_controlle
 </iframe>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_ve_pack.html">VePack</a></li><li class="navelem"><a class="el" href="namespace_ve_pack_1_1_plugin.html">Plugin</a></li><li class="navelem"><a class="el" href="namespace_ve_pack_1_1_plugin_1_1_controllers.html">Controllers</a></li><li class="navelem"><a class="el" href="namespace_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based.html">ModelBased</a></li><li class="navelem"><a class="el" href="namespace_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering.html">Steering</a></li><li class="navelem"><a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nn_steering_model.html">NnSteeringModel</a></li>  </ul>
+</div>
+</div><!-- top -->
 <div class="header">
-  <div class="headertitle"><div class="title">VePack.Plugin.Controllers.ModelBased.Steering.NNSteeringModel Member List</div></div>
+  <div class="headertitle"><div class="title">VePack.Plugin.Controllers.ModelBased.Steering.NnSteeringModel Member List</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_n_n_steering_model.html">VePack.Plugin.Controllers.ModelBased.Steering.NNSteeringModel</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nn_steering_model.html">VePack.Plugin.Controllers.ModelBased.Steering.NnSteeringModel</a>, including all inherited members.</p>
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_linear_state_model.html#af8ddbbbcae9a65b94f937e83fddfbaca">A</a></td><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_linear_state_model.html">VePack.Plugin.Controllers.ModelBased.LinearStateModel</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_linear_state_model.html#a831f63114351859b4fa89ba661f56c76">B</a></td><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_linear_state_model.html">VePack.Plugin.Controllers.ModelBased.LinearStateModel</a></td><td class="entry"></td></tr>
@@ -94,19 +78,16 @@ $(document).ready(function(){initNavTree('class_ve_pack_1_1_plugin_1_1_controlle
   <tr class="odd"><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_linear_state_model.html#abac19bcd224441bb67bfa3c6f25e3531">Dt</a></td><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_linear_state_model.html">VePack.Plugin.Controllers.ModelBased.LinearStateModel</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_geometric_steering_model.html#a42def1b9f29a491688639db8c5c65b77">GeometricSteeringModel</a>(double lf, double lr, double timeConstant, double dt=0.1)</td><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_geometric_steering_model.html">VePack.Plugin.Controllers.ModelBased.Steering.GeometricSteeringModel</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_linear_state_model.html#a3364f9e739feb05f4af15447d41351a1">GetNextState</a>(Vector&lt; double &gt; x, Vector&lt; double &gt; u)</td><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_linear_state_model.html">VePack.Plugin.Controllers.ModelBased.LinearStateModel</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_n_n_steering_model.html#a3cf40e14ed8baaab33f7b49728c8b911">NNSteeringModel</a>(NetworkGraph net, int trainBatchSize, double lf, double lr, double timeConstant, double dt=0.1)</td><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_n_n_steering_model.html">VePack.Plugin.Controllers.ModelBased.Steering.NNSteeringModel</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_n_n_steering_model.html#aa0d96dee1e14e0b55f2babc405a9914f">PredictDynamics</a>(double lateralError, Angle headingError, Angle steeringAngle, double speed, double curvature)</td><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_n_n_steering_model.html">VePack.Plugin.Controllers.ModelBased.Steering.NNSteeringModel</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_n_n_steering_model.html#a963f05ce8bc7805fa0857bfd327b53fd">SaveModel</a>(string name)</td><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_n_n_steering_model.html">VePack.Plugin.Controllers.ModelBased.Steering.NNSteeringModel</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nn_steering_model.html#aa0ce239654c99c2afe6b3a1dd6721f76">NnSteeringModel</a>(NetworkGraph net, int trainBatchSize, double timeConstant, double dt=0.1)</td><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nn_steering_model.html">VePack.Plugin.Controllers.ModelBased.Steering.NnSteeringModel</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nn_steering_model.html#a75935f6d6932eaea255761f4cf8c75eb">PredictDynamics</a>(double lateralError, Angle headingError, Angle steeringAngle, double speed, double curvature)</td><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nn_steering_model.html">VePack.Plugin.Controllers.ModelBased.Steering.NnSteeringModel</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nn_steering_model.html#abb734cd273a75199207b7d0e0092ee1f">SaveModel</a>(string name)</td><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nn_steering_model.html">VePack.Plugin.Controllers.ModelBased.Steering.NnSteeringModel</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_geometric_steering_model.html#acc6b8cc2efc76ff18ca09ef51e951462">SetParams</a>(double speed, double curvature)</td><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_geometric_steering_model.html">VePack.Plugin.Controllers.ModelBased.Steering.GeometricSteeringModel</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_geometric_steering_model.html#aa41c3a72b900cd6da1f778e05a11fd2d">VehicleSpeed</a></td><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_geometric_steering_model.html">VePack.Plugin.Controllers.ModelBased.Steering.GeometricSteeringModel</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_linear_state_model.html#a9d19a530ed2f5eea9327580a32d3f4e7">W</a></td><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_linear_state_model.html">VePack.Plugin.Controllers.ModelBased.LinearStateModel</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
+</small></address>
 </body>
 </html>

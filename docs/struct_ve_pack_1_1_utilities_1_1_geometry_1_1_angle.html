@@ -9,10 +9,6 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -50,23 +46,6 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html',''); initResizable(); });
-/* @license-end */
-</script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -81,6 +60,11 @@ $(document).ready(function(){initNavTree('struct_ve_pack_1_1_utilities_1_1_geome
 </iframe>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_ve_pack.html">VePack</a></li><li class="navelem"><a class="el" href="namespace_ve_pack_1_1_utilities.html">Utilities</a></li><li class="navelem"><a class="el" href="namespace_ve_pack_1_1_utilities_1_1_geometry.html">Geometry</a></li><li class="navelem"><a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html">Angle</a></li>  </ul>
+</div>
+</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
@@ -99,14 +83,8 @@ Inheritance diagram for VePack.Utilities.Geometry.Angle:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5fbcf59a5bcaff19832834289b49a5ba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html#a5fbcf59a5bcaff19832834289b49a5ba">Angle</a> (double value, <a class="el" href="namespace_ve_pack_1_1_utilities_1_1_geometry.html#abbfa4ae0a7f46dcc8f58e807d30ae2dc">AngleType</a> type)</td></tr>
-<tr class="separator:a5fbcf59a5bcaff19832834289b49a5ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab59023c429ddfa8a9dddd4175b394dbe"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html#ab59023c429ddfa8a9dddd4175b394dbe">Angle</a> (double radian=0, double degree=0)</td></tr>
-<tr class="separator:ab59023c429ddfa8a9dddd4175b394dbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae59b18dc61d5758440812d792c99dd9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html">Angle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html#ae59b18dc61d5758440812d792c99dd9d">Add</a> (double value, <a class="el" href="namespace_ve_pack_1_1_utilities_1_1_geometry.html#abbfa4ae0a7f46dcc8f58e807d30ae2dc">AngleType</a> type)</td></tr>
-<tr class="separator:ae59b18dc61d5758440812d792c99dd9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab48901a6f063bb3012e48b11450ae72c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html">Angle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html#ab48901a6f063bb3012e48b11450ae72c">Subtract</a> (double value, <a class="el" href="namespace_ve_pack_1_1_utilities_1_1_geometry.html#abbfa4ae0a7f46dcc8f58e807d30ae2dc">AngleType</a> type)</td></tr>
-<tr class="separator:ab48901a6f063bb3012e48b11450ae72c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afee53cb8ed3ea80ce8bf5f81bd93a646"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html#afee53cb8ed3ea80ce8bf5f81bd93a646">Angle</a> (double radian)</td></tr>
+<tr class="separator:afee53cb8ed3ea80ce8bf5f81bd93a646"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75010d7cc488c911a774ac5da3c2a9f2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html#a75010d7cc488c911a774ac5da3c2a9f2">Equals</a> (<a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html">Angle</a> obj)</td></tr>
 <tr class="separator:a75010d7cc488c911a774ac5da3c2a9f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a730f5706685f1c660bd0644e9f5363ea"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html#a730f5706685f1c660bd0644e9f5363ea">Equals</a> (object? obj)</td></tr>
@@ -116,6 +94,10 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ab0efda0f0788be992b113bc90d795264"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html">Angle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html#ab0efda0f0788be992b113bc90d795264">FromRadian</a> (double value)</td></tr>
+<tr class="separator:ab0efda0f0788be992b113bc90d795264"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f5a062bf9d369491c5174ef369d2d3e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html">Angle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html#a9f5a062bf9d369491c5174ef369d2d3e">FromDegree</a> (double value)</td></tr>
+<tr class="separator:a9f5a062bf9d369491c5174ef369d2d3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78835e424edbf0ec1432ed50ba83a652"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html">Angle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html#a78835e424edbf0ec1432ed50ba83a652">operator+</a> (<a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html">Angle</a> a, <a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html">Angle</a> b)</td></tr>
 <tr class="separator:a78835e424edbf0ec1432ed50ba83a652"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6da173b2b3402fe5c6ef013ea36097e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html">Angle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html#ae6da173b2b3402fe5c6ef013ea36097e">operator-</a> (<a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html">Angle</a> a, <a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html">Angle</a> b)</td></tr>
@@ -145,8 +127,8 @@ Properties</h2></td></tr>
 <tr class="separator:afba54ccb0fa12675a1513ec92e2ebd36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a5fbcf59a5bcaff19832834289b49a5ba" name="a5fbcf59a5bcaff19832834289b49a5ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5fbcf59a5bcaff19832834289b49a5ba">&#9670;&nbsp;</a></span>Angle() <span class="overload">[1/2]</span></h2>
+<a id="afee53cb8ed3ea80ce8bf5f81bd93a646" name="afee53cb8ed3ea80ce8bf5f81bd93a646"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afee53cb8ed3ea80ce8bf5f81bd93a646">&#9670;&nbsp;</a></span>Angle()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -155,46 +137,8 @@ Properties</h2></td></tr>
           <td class="memname">VePack.Utilities.Geometry.Angle.Angle </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>value</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"><em>radian</em></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespace_ve_pack_1_1_utilities_1_1_geometry.html#abbfa4ae0a7f46dcc8f58e807d30ae2dc">AngleType</a>&#160;</td>
-          <td class="paramname"><em>type</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab59023c429ddfa8a9dddd4175b394dbe" name="ab59023c429ddfa8a9dddd4175b394dbe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab59023c429ddfa8a9dddd4175b394dbe">&#9670;&nbsp;</a></span>Angle() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">VePack.Utilities.Geometry.Angle.Angle </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>radian</em> = <code>0</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>degree</em> = <code>0</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -202,34 +146,6 @@ Properties</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ae59b18dc61d5758440812d792c99dd9d" name="ae59b18dc61d5758440812d792c99dd9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae59b18dc61d5758440812d792c99dd9d">&#9670;&nbsp;</a></span>Add()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html">Angle</a> VePack.Utilities.Geometry.Angle.Add </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>value</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespace_ve_pack_1_1_utilities_1_1_geometry.html#abbfa4ae0a7f46dcc8f58e807d30ae2dc">AngleType</a>&#160;</td>
-          <td class="paramname"><em>type</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a75010d7cc488c911a774ac5da3c2a9f2" name="a75010d7cc488c911a774ac5da3c2a9f2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a75010d7cc488c911a774ac5da3c2a9f2">&#9670;&nbsp;</a></span>Equals() <span class="overload">[1/2]</span></h2>
 
@@ -262,6 +178,58 @@ Properties</h2></td></tr>
           <td></td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9f5a062bf9d369491c5174ef369d2d3e" name="a9f5a062bf9d369491c5174ef369d2d3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f5a062bf9d369491c5174ef369d2d3e">&#9670;&nbsp;</a></span>FromDegree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html">Angle</a> VePack.Utilities.Geometry.Angle.FromDegree </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab0efda0f0788be992b113bc90d795264" name="ab0efda0f0788be992b113bc90d795264"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0efda0f0788be992b113bc90d795264">&#9670;&nbsp;</a></span>FromRadian()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html">Angle</a> VePack.Utilities.Geometry.Angle.FromRadian </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -597,34 +565,6 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="ab48901a6f063bb3012e48b11450ae72c" name="ab48901a6f063bb3012e48b11450ae72c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab48901a6f063bb3012e48b11450ae72c">&#9670;&nbsp;</a></span>Subtract()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html">Angle</a> VePack.Utilities.Geometry.Angle.Subtract </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>value</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespace_ve_pack_1_1_utilities_1_1_geometry.html#abbfa4ae0a7f46dcc8f58e807d30ae2dc">AngleType</a>&#160;</td>
-          <td class="paramname"><em>type</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Property Documentation</h2>
 <a id="abd5d29c4f90f6e7472c5e5affb396db2" name="abd5d29c4f90f6e7472c5e5affb396db2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abd5d29c4f90f6e7472c5e5affb396db2">&#9670;&nbsp;</a></span>Degree</h2>
@@ -696,13 +636,9 @@ Properties</h2></td></tr>
 <li>C:/Users/husty/source/repos/VePack/Lib/Utilities/Geometry/<a class="el" href="_angle_8cs.html">Angle.cs</a></li>
 </ul>
 </div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="namespace_ve_pack.html">VePack</a></li><li class="navelem"><a class="el" href="namespace_ve_pack_1_1_utilities.html">Utilities</a></li><li class="navelem"><a class="el" href="namespace_ve_pack_1_1_utilities_1_1_geometry.html">Geometry</a></li><li class="navelem"><a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html">Angle</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
+</small></address>
 </body>
 </html>
