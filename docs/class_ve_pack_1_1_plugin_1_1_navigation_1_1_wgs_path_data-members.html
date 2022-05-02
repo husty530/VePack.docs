@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -46,6 +50,23 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_path_data.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -60,11 +81,6 @@ $(function() {
 </iframe>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="namespace_ve_pack.html">VePack</a></li><li class="navelem"><a class="el" href="namespace_ve_pack_1_1_plugin.html">Plugin</a></li><li class="navelem"><a class="el" href="namespace_ve_pack_1_1_plugin_1_1_navigation.html">Navigation</a></li><li class="navelem"><a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_path_data.html">WgsPathData</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="headertitle"><div class="title">VePack.Plugin.Navigation.WgsPathData Member List</div></div>
 </div><!--header-->
@@ -80,18 +96,21 @@ $(function() {
   <tr class="odd"><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_path_data.html#a4c1ea99f7af41001991fbd1bca161e72">Count</a></td><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_path_data.html">VePack.Plugin.Navigation.WgsPathData</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_path_data.html#a2e6e70410249783d57b1f28f503bac60">GetEnumerator</a>()</td><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_path_data.html">VePack.Plugin.Navigation.WgsPathData</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_path_data.html#a4e2bb5d6a3e46714edc848e2483444a5">GetReverse</a>()</td><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_path_data.html">VePack.Plugin.Navigation.WgsPathData</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_path_data.html#a6f6f7ccba1a64f93907dd3d730f79c65">Id</a></td><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_path_data.html">VePack.Plugin.Navigation.WgsPathData</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_path_data.html#a7a14d1d13316d5227a0ffda488939eb9">Id</a></td><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_path_data.html">VePack.Plugin.Navigation.WgsPathData</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_path_data.html#a6921d742c997b371c8e1525d5ae9ae18">IndexOf</a>(WgsPointData item)</td><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_path_data.html">VePack.Plugin.Navigation.WgsPathData</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_path_data.html#ad95187c3a06b64469a29a3949e794cee">Insert</a>(int index, WgsPointData item)</td><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_path_data.html">VePack.Plugin.Navigation.WgsPathData</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_path_data.html#a667ad1fbd8c7ba3393054732d00e014e">IsReadOnly</a></td><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_path_data.html">VePack.Plugin.Navigation.WgsPathData</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_path_data.html#aae63c951e8d166d42b40f6ee679399c0">Remove</a>(WgsPointData item)</td><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_path_data.html">VePack.Plugin.Navigation.WgsPathData</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_path_data.html#a96fd0b43c344377f4d080a8a3d849afd">RemoveAt</a>(int index)</td><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_path_data.html">VePack.Plugin.Navigation.WgsPathData</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_path_data.html#a6c984d94ad0af04d284bf50c20594d3b">this[int index]</a></td><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_path_data.html">VePack.Plugin.Navigation.WgsPathData</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_path_data.html#acee9dde28be27ffaf2dea94f6798218e">WgsPathData</a>(IEnumerable&lt; WgsPointData &gt; points, object id=null)</td><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_path_data.html">VePack.Plugin.Navigation.WgsPathData</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_path_data.html#ab980a17f63461b260fbcc5abd77abab0">WgsPathData</a>(IEnumerable&lt; WgsPointData &gt; points, string id=null)</td><td class="entry"><a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_path_data.html">VePack.Plugin.Navigation.WgsPathData</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+  </ul>
+</div>
 </body>
 </html>

@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -46,6 +50,23 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_path_data.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -60,11 +81,6 @@ $(function() {
 </iframe>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="namespace_ve_pack.html">VePack</a></li><li class="navelem"><a class="el" href="namespace_ve_pack_1_1_plugin.html">Plugin</a></li><li class="navelem"><a class="el" href="namespace_ve_pack_1_1_plugin_1_1_navigation.html">Navigation</a></li><li class="navelem"><a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_path_data.html">UtmPathData</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
@@ -82,8 +98,8 @@ Inheritance diagram for VePack.Plugin.Navigation.UtmPathData:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3c482293955fbeb2a6d0c523697228a3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_path_data.html#a3c482293955fbeb2a6d0c523697228a3">UtmPathData</a> (IEnumerable&lt; <a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_point_data.html">UtmPointData</a> &gt; points, object id=null)</td></tr>
-<tr class="separator:a3c482293955fbeb2a6d0c523697228a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae80851b27a879a2997d8b01b89faca20"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_path_data.html#ae80851b27a879a2997d8b01b89faca20">UtmPathData</a> (IEnumerable&lt; <a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_point_data.html">UtmPointData</a> &gt; points, string id=null)</td></tr>
+<tr class="separator:ae80851b27a879a2997d8b01b89faca20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af50b194b5f5b3f5e36158754f55d17c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_path_data.html#af50b194b5f5b3f5e36158754f55d17c5">Clear</a> ()</td></tr>
 <tr class="separator:af50b194b5f5b3f5e36158754f55d17c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d04ebde566c12b28278c06867d2b6c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_path_data.html#a8d04ebde566c12b28278c06867d2b6c9">Add</a> (<a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_point_data.html">UtmPointData</a> item)</td></tr>
@@ -119,8 +135,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:aa94ad21b92c1358dc88448e12ebddc0f"><td class="memItemLeft" align="right" valign="top">object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_path_data.html#aa94ad21b92c1358dc88448e12ebddc0f">Id</a><code> [get]</code></td></tr>
-<tr class="separator:aa94ad21b92c1358dc88448e12ebddc0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acba4f0d16083d711e2b2c41e83331895"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_path_data.html#acba4f0d16083d711e2b2c41e83331895">Id</a><code> [get]</code></td></tr>
+<tr class="separator:acba4f0d16083d711e2b2c41e83331895"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb6c626ca2c41134b94a6c3b3418d823"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_path_data.html#adb6c626ca2c41134b94a6c3b3418d823">Count</a><code> [get]</code></td></tr>
 <tr class="separator:adb6c626ca2c41134b94a6c3b3418d823"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71c789c5d2e9935c7142d0f0e79fe01a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_path_data.html#a71c789c5d2e9935c7142d0f0e79fe01a">IsReadOnly</a><code> [get]</code></td></tr>
@@ -129,8 +145,8 @@ Properties</h2></td></tr>
 <tr class="separator:ae6670ac14acce8d3bb8b31f576a8f052"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a3c482293955fbeb2a6d0c523697228a3" name="a3c482293955fbeb2a6d0c523697228a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c482293955fbeb2a6d0c523697228a3">&#9670;&nbsp;</a></span>UtmPathData()</h2>
+<a id="ae80851b27a879a2997d8b01b89faca20" name="ae80851b27a879a2997d8b01b89faca20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae80851b27a879a2997d8b01b89faca20">&#9670;&nbsp;</a></span>UtmPathData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144,7 +160,7 @@ Properties</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">object&#160;</td>
+          <td class="paramtype">string&#160;</td>
           <td class="paramname"><em>id</em> = <code>null</code>&#160;</td>
         </tr>
         <tr>
@@ -485,8 +501,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="aa94ad21b92c1358dc88448e12ebddc0f" name="aa94ad21b92c1358dc88448e12ebddc0f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa94ad21b92c1358dc88448e12ebddc0f">&#9670;&nbsp;</a></span>Id</h2>
+<a id="acba4f0d16083d711e2b2c41e83331895" name="acba4f0d16083d711e2b2c41e83331895"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acba4f0d16083d711e2b2c41e83331895">&#9670;&nbsp;</a></span>Id</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -495,7 +511,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">object VePack.Plugin.Navigation.UtmPathData.Id</td>
+          <td class="memname">string VePack.Plugin.Navigation.UtmPathData.Id</td>
         </tr>
       </table>
   </td>
@@ -555,9 +571,13 @@ Properties</h2></td></tr>
 <li>C:/Users/husty/source/repos/VePack/Lib/Plugin/Navigation/<a class="el" href="_plugin_2_navigation_2_data_8cs.html">Data.cs</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_ve_pack.html">VePack</a></li><li class="navelem"><a class="el" href="namespace_ve_pack_1_1_plugin.html">Plugin</a></li><li class="navelem"><a class="el" href="namespace_ve_pack_1_1_plugin_1_1_navigation.html">Navigation</a></li><li class="navelem"><a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_path_data.html">UtmPathData</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+  </ul>
+</div>
 </body>
 </html>

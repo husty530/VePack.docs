@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['kalmanfilter_0',['KalmanFilter',['../class_ve_pack_1_1_plugin_1_1_filters_1_1_kalman_filter.html#a264e23fdabc4f3369894fedfad1ba195',1,'VePack.Plugin.Filters.KalmanFilter.KalmanFilter(double[] initialStateVec, double[]? controlMatrix, double filterStrength=1.0)'],['../class_ve_pack_1_1_plugin_1_1_filters_1_1_kalman_filter.html#a3bf4114ad99bfc4c3e25be32b3d5087c',1,'VePack.Plugin.Filters.KalmanFilter.KalmanFilter(double[] initialStateVec, double[]? controlMatrix, double measurementNoise=1.0, double processNoise=1.0, double preError=1.0)'],['../class_ve_pack_1_1_plugin_1_1_filters_1_1_kalman_filter.html#ac947f78d7b05d644bf58eee74ccb181b',1,'VePack.Plugin.Filters.KalmanFilter.KalmanFilter(double[] initialStateVec, double[]? controlMatrix, double[] transitionMatrix, double[] measurementMatrix, double measurementNoise=1.0, double processNoise=1.0, double preError=1.0)'],['../class_ve_pack_1_1_plugin_1_1_filters_1_1_kalman_filter.html#a842c3c2057bbdfcb084cc5a962ba44bb',1,'VePack.Plugin.Filters.KalmanFilter.KalmanFilter(double[] initialStateVec, double[]? controlMatrix, double[] transitionMatrix, double[] measurementMatrix, double[] measurementNoiseMatrix, double[] processNoiseMatrix, double preError=1.0)'],['../class_ve_pack_1_1_plugin_1_1_filters_1_1_kalman_filter.html',1,'VePack.Plugin.Filters.KalmanFilter']]],
-  ['kalmanfilter_2ecs_1',['KalmanFilter.cs',['../_kalman_filter_8cs.html',1,'']]],
-  ['kd_2',['Kd',['../class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_free_1_1_pid.html#a59d1162d7fc220147a0c4e11ed2c6f06',1,'VePack::Plugin::Controllers::ModelFree::Pid']]],
-  ['ki_3',['Ki',['../class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_free_1_1_pid.html#ae4d9af7b40272dd0da3914270f5e154a',1,'VePack::Plugin::Controllers::ModelFree::Pid']]],
-  ['kp_4',['Kp',['../class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_free_1_1_pid.html#ab4121e315ad40fc3de554a3da107b8a5',1,'VePack::Plugin::Controllers::ModelFree::Pid']]]
+  ['json_0',['Json',['../namespace_ve_pack_1_1_utilities.html#aaf2c8c3bda2925199998273d927083ecaeed8d85b888a6c015834240885ee6333',1,'VePack::Utilities']]],
+  ['json2csvconverter_1',['Json2CsvConverter',['../class_ve_pack_1_1_utilities_1_1_json2_csv_converter.html',1,'VePack::Utilities']]],
+  ['json2csvconverter_2ecs_2',['Json2CsvConverter.cs',['../_json2_csv_converter_8cs.html',1,'']]]
 ];

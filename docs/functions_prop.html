@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -47,6 +51,22 @@ $(function() {
 </script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('functions_prop.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -80,6 +100,7 @@ $(function() {
 <li>B&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_linear_state_model.html#a831f63114351859b4fa89ba661f56c76">VePack.Plugin.Controllers.ModelBased.LinearStateModel</a>, <a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_lqr.html#afe2b38d0793ec96622fc27a5ee93db25">VePack.Plugin.Controllers.ModelBased.Lqr</a>, <a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_pfc.html#a982cb7cb85006ff01d46c317fcb19f21">VePack.Plugin.Controllers.ModelBased.Pfc</a>, <a class="el" href="class_ve_pack_1_1_utilities_1_1_neural_network_1_1_affine.html#accddd7901c6cdb7aa1c2af6116854fef">VePack.Utilities.NeuralNetwork.Affine</a></li>
 <li>Baudrate&#160;:&#160;<a class="el" href="class_ve_pack_1_1_connectors_1_1_can_1_1_lawicel_1_1_can_usb_adapter.html#a571c9169cc85ad3563a05eba814cd0ad">VePack.Connectors.Can.Lawicel.CanUsbAdapter</a></li>
 <li>Beta&#160;:&#160;<a class="el" href="class_ve_pack_1_1_utilities_1_1_neural_network_1_1_adam.html#aaf70329bbaf2d1c8efd06ae5e26e8eb0">VePack.Utilities.NeuralNetwork.Adam</a></li>
+<li>BlueLight&#160;:&#160;<a class="el" href="class_ve_pack_1_1_vehicles_1_1_kubota_m_r1000_a_1_1_operation_data.html#a89864e36f9e9defac6259fb20951053e">VePack.Vehicles.KubotaMR1000A.OperationData</a></li>
 </ul>
 
 
@@ -108,7 +129,7 @@ $(function() {
 <h3><a id="index_e" name="index_e"></a>- e -</h3><ul>
 <li>EmergencyStop&#160;:&#160;<a class="el" href="class_ve_pack_1_1_vehicles_1_1_toyota_electric_vehicle_1_1_operation_data.html#a232b91b6d363d3681c4b67f238bb788c">VePack.Vehicles.ToyotaElectricVehicle.OperationData</a></li>
 <li>End&#160;:&#160;<a class="el" href="class_ve_pack_1_1_utilities_1_1_geometry_1_1_arc2_d.html#a11beeb1a04eb5d31e5d13e9b20cdde89">VePack.Utilities.Geometry.Arc2D</a>, <a class="el" href="class_ve_pack_1_1_utilities_1_1_geometry_1_1_line_segment2_d.html#a05b90742d225fce229006a5303292314">VePack.Utilities.Geometry.LineSegment2D</a></li>
-<li>EngineSpeed&#160;:&#160;<a class="el" href="class_ve_pack_1_1_vehicles_1_1_kubota_tractor_1_1_operation_data.html#aa0f425fcad0cbb9bb028fac8b652bf09">VePack.Vehicles.KubotaTractor.OperationData</a>, <a class="el" href="class_ve_pack_1_1_vehicles_1_1_yanmar_tractor_1_1_operation_data.html#a03ebda675c8cc477a927005aa8079114">VePack.Vehicles.YanmarTractor.OperationData</a></li>
+<li>EngineSpeed&#160;:&#160;<a class="el" href="class_ve_pack_1_1_vehicles_1_1_kubota_m_r1000_a_1_1_operation_data.html#a06306f35f6597b095ed26e0a6202994e">VePack.Vehicles.KubotaMR1000A.OperationData</a>, <a class="el" href="class_ve_pack_1_1_vehicles_1_1_yanmar_tractor_1_1_operation_data.html#a03ebda675c8cc477a927005aa8079114">VePack.Vehicles.YanmarTractor.OperationData</a></li>
 </ul>
 
 
@@ -120,27 +141,27 @@ $(function() {
 
 
 <h3><a id="index_g" name="index_g"></a>- g -</h3><ul>
-<li>Gear&#160;:&#160;<a class="el" href="class_ve_pack_1_1_vehicles_1_1_kubota_tractor_1_1_operation_data.html#a6959d6c15378cf02f0596bf11ee7255b">VePack.Vehicles.KubotaTractor.OperationData</a></li>
 <li>GradB&#160;:&#160;<a class="el" href="class_ve_pack_1_1_utilities_1_1_neural_network_1_1_affine.html#aae88d9297caedff681ee19642b82ba44">VePack.Utilities.NeuralNetwork.Affine</a></li>
 <li>GradW&#160;:&#160;<a class="el" href="class_ve_pack_1_1_utilities_1_1_neural_network_1_1_affine.html#a202877cc9969b16a22796a01631e7e5e">VePack.Utilities.NeuralNetwork.Affine</a></li>
+<li>GreenLight&#160;:&#160;<a class="el" href="class_ve_pack_1_1_vehicles_1_1_kubota_m_r1000_a_1_1_operation_data.html#a4f148b4d396919e7ac68b4dffdb3bdd7">VePack.Vehicles.KubotaMR1000A.OperationData</a></li>
 </ul>
 
 
 <h3><a id="index_h" name="index_h"></a>- h -</h3><ul>
 <li>Handle&#160;:&#160;<a class="el" href="class_ve_pack_1_1_connectors_1_1_can_1_1_lawicel_1_1_can_usb_adapter.html#ae0d02207ec83a76bb23797fa111c792c">VePack.Connectors.Can.Lawicel.CanUsbAdapter</a></li>
-<li>Hitch&#160;:&#160;<a class="el" href="class_ve_pack_1_1_vehicles_1_1_kubota_tractor_1_1_operation_data.html#abdfa66f097fb8008ef2788308d84c138">VePack.Vehicles.KubotaTractor.OperationData</a>, <a class="el" href="class_ve_pack_1_1_vehicles_1_1_yanmar_tractor_1_1_operation_data.html#ae9e926dbbf4af4d2474b6b2a236990c3">VePack.Vehicles.YanmarTractor.OperationData</a></li>
-<li>Horn&#160;:&#160;<a class="el" href="class_ve_pack_1_1_vehicles_1_1_kubota_tractor_1_1_operation_data.html#a47279245c02b865f4217c3089e0cb983">VePack.Vehicles.KubotaTractor.OperationData</a></li>
+<li>Hitch&#160;:&#160;<a class="el" href="class_ve_pack_1_1_vehicles_1_1_kubota_m_r1000_a_1_1_operation_data.html#a3ec6f225fc556cb44529fac1ad4db874">VePack.Vehicles.KubotaMR1000A.OperationData</a>, <a class="el" href="class_ve_pack_1_1_vehicles_1_1_yanmar_tractor_1_1_operation_data.html#ae9e926dbbf4af4d2474b6b2a236990c3">VePack.Vehicles.YanmarTractor.OperationData</a></li>
+<li>Horn&#160;:&#160;<a class="el" href="class_ve_pack_1_1_vehicles_1_1_kubota_m_r1000_a_1_1_operation_data.html#a85badca5d70f71552b5537d282cb849b">VePack.Vehicles.KubotaMR1000A.OperationData</a></li>
 </ul>
 
 
 <h3><a id="index_i" name="index_i"></a>- i -</h3><ul>
-<li>Id&#160;:&#160;<a class="el" href="class_ve_pack_1_1_connectors_1_1_can_1_1_lawicel_1_1_can_message.html#a67d9c8498b8153acb3ffb64eabb17359">VePack.Connectors.Can.Lawicel.CanMessage</a>, <a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_path_data.html#aa94ad21b92c1358dc88448e12ebddc0f">VePack.Plugin.Navigation.UtmPathData</a>, <a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_point_data.html#ae4562a559961d2820a1d81b8e434665c">VePack.Plugin.Navigation.UtmPointData</a>, <a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_path_data.html#a6f6f7ccba1a64f93907dd3d730f79c65">VePack.Plugin.Navigation.WgsPathData</a>, <a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_point_data.html#ac6e998b44fd0aa15ca214cf8065f8e71">VePack.Plugin.Navigation.WgsPointData</a></li>
+<li>Id&#160;:&#160;<a class="el" href="class_ve_pack_1_1_connectors_1_1_can_1_1_lawicel_1_1_can_message.html#a67d9c8498b8153acb3ffb64eabb17359">VePack.Connectors.Can.Lawicel.CanMessage</a>, <a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_path_data.html#acba4f0d16083d711e2b2c41e83331895">VePack.Plugin.Navigation.UtmPathData</a>, <a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_point_data.html#aa06df78fe4efa7152fa1740cd6bb7c3a">VePack.Plugin.Navigation.UtmPointData</a>, <a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_path_data.html#a7a14d1d13316d5227a0ffda488939eb9">VePack.Plugin.Navigation.WgsPathData</a>, <a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_point_data.html#a551bc84a3086715f96111262c0f46f11">VePack.Plugin.Navigation.WgsPointData</a></li>
 <li>InputConstraints&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_pfc.html#a9a260889a9b10dbaa1750c454343d96a">VePack.Plugin.Controllers.ModelBased.Pfc</a></li>
 <li>InputMaxConstraints&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_geometric_steering_model.html#afd91209c4e27ed9f9812e6fccb4bb6f9">VePack.Plugin.Controllers.ModelBased.Steering.Nmpc.NmpcGeometricSteeringModel</a>, <a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_model.html#a662b254db87158d9981457176f13078b">VePack.Plugin.Controllers.ModelBased.Steering.Nmpc.NmpcModel</a></li>
 <li>InputSpeedConstraints&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_pfc.html#a478aed89c23827faae5d35afb39fb8c8">VePack.Plugin.Controllers.ModelBased.Pfc</a></li>
 <li>IntegratedError&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_free_1_1_pid.html#a3340c405c6f83629ecc7f12f02cc8eac">VePack.Plugin.Controllers.ModelFree.Pid</a></li>
 <li>Intercept&#160;:&#160;<a class="el" href="class_ve_pack_1_1_utilities_1_1_geometry_1_1_line2_d.html#aa1a3d38227b0509a44e37eb1000c06e9">VePack.Utilities.Geometry.Line2D</a></li>
-<li>IsOpened&#160;:&#160;<a class="el" href="class_ve_pack_1_1_connectors_1_1_can_1_1_can_base.html#af4ed93d08a9d0da7e3d30ea2b5c24b33">VePack.Connectors.Can.CanBase&lt; TOperation, TInformation &gt;</a>, <a class="el" href="class_ve_pack_1_1_connectors_1_1_gnss_1_1_gnss_receiver.html#ab1bb10f73c125d533b7573ce5c0e6a9b">VePack.Connectors.Gnss.GnssReceiver</a>, <a class="el" href="interface_ve_pack_1_1_connectors_1_1_i_information_receiver.html#a1057a169875ff216d0bdcd752875cf6c">VePack.Connectors.IInformationReceiver&lt; T &gt;</a>, <a class="el" href="class_ve_pack_1_1_connectors_1_1_imu_1_1_imu_receiver.html#ab31d0159f47e94fee86b4ddcf220f5b9">VePack.Connectors.Imu.ImuReceiver</a>, <a class="el" href="interface_ve_pack_1_1_connectors_1_1_i_operation_sender.html#a0e680489588889edc9e633fab0958b31">VePack.Connectors.IOperationSender&lt; T &gt;</a>, <a class="el" href="class_ve_pack_1_1_connectors_1_1_lidar2_d_1_1_hokuyo_utm_receiver.html#a3b8fa62e564b8fa6c59bf8938f237b9a">VePack.Connectors.Lidar2D.HokuyoUtmReceiver</a>, <a class="el" href="class_ve_pack_1_1_connectors_1_1_text_stream_1_1_text_stream_base.html#abee85ec79478cd73b3506100bbd1d1f1">VePack.Connectors.TextStream.TextStreamBase&lt; TOperation, TInformation &gt;</a></li>
+<li>IsOpened&#160;:&#160;<a class="el" href="class_ve_pack_1_1_connectors_1_1_can_1_1_can_base.html#af4ed93d08a9d0da7e3d30ea2b5c24b33">VePack.Connectors.Can.CanBase&lt; TOperation, TInformation &gt;</a>, <a class="el" href="class_ve_pack_1_1_connectors_1_1_gnss_1_1_gnss_receiver.html#ab1bb10f73c125d533b7573ce5c0e6a9b">VePack.Connectors.Gnss.GnssReceiver</a>, <a class="el" href="interface_ve_pack_1_1_connectors_1_1_i_information_receiver.html#a1057a169875ff216d0bdcd752875cf6c">VePack.Connectors.IInformationReceiver&lt; T &gt;</a>, <a class="el" href="class_ve_pack_1_1_connectors_1_1_imu_1_1_imu_receiver.html#ab31d0159f47e94fee86b4ddcf220f5b9">VePack.Connectors.Imu.ImuReceiver</a>, <a class="el" href="interface_ve_pack_1_1_connectors_1_1_i_operation_sender.html#a0e680489588889edc9e633fab0958b31">VePack.Connectors.IOperationSender&lt; T &gt;</a>, <a class="el" href="class_ve_pack_1_1_connectors_1_1_lidar2_d_1_1_hokuyo_utm_receiver.html#a3b8fa62e564b8fa6c59bf8938f237b9a">VePack.Connectors.Lidar2D.HokuyoUtmReceiver</a>, <a class="el" href="class_ve_pack_1_1_connectors_1_1_null_1_1_null_receiver.html#a214e7c391497314d0e7233243e31060f">VePack.Connectors.Null.NullReceiver&lt; T &gt;</a>, <a class="el" href="class_ve_pack_1_1_connectors_1_1_text_stream_1_1_text_stream_base.html#abee85ec79478cd73b3506100bbd1d1f1">VePack.Connectors.TextStream.TextStreamBase&lt; TOperation, TInformation &gt;</a></li>
 <li>IsReadOnly&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_path_data.html#a71c789c5d2e9935c7142d0f0e79fe01a">VePack.Plugin.Navigation.UtmPathData</a>, <a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_path_data.html#a667ad1fbd8c7ba3393054732d00e014e">VePack.Plugin.Navigation.WgsPathData</a></li>
 </ul>
 
@@ -155,7 +176,7 @@ $(function() {
 <h3><a id="index_l" name="index_l"></a>- l -</h3><ul>
 <li>Latitude&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_point_data.html#ac984a0906448a28400147dd05d0f77b8">VePack.Plugin.Navigation.WgsPointData</a></li>
 <li>LayerStack&#160;:&#160;<a class="el" href="class_ve_pack_1_1_utilities_1_1_neural_network_1_1_network_graph.html#a752216500657afc6c08c14e555f7f072">VePack.Utilities.NeuralNetwork.NetworkGraph</a></li>
-<li>LeftMarker&#160;:&#160;<a class="el" href="class_ve_pack_1_1_vehicles_1_1_kubota_rice_transplanter_1_1_operation_data.html#a74c8477a77201fcd5608ec34da6f1ede">VePack.Vehicles.KubotaRiceTransplanter.OperationData</a></li>
+<li>LeftMarker&#160;:&#160;<a class="el" href="class_ve_pack_1_1_vehicles_1_1_kubota_e_p8_d_1_1_operation_data.html#a7c429582d5f1adfdb2235e5d0da770dc">VePack.Vehicles.KubotaEP8D.OperationData</a></li>
 <li>Length&#160;:&#160;<a class="el" href="class_ve_pack_1_1_connectors_1_1_can_1_1_lawicel_1_1_can_message.html#a44bf6f7648ef88288917c670c5647b3c">VePack.Connectors.Can.Lawicel.CanMessage</a>, <a class="el" href="class_ve_pack_1_1_utilities_1_1_geometry_1_1_line_segment2_d.html#aadbb99799950ffa6c6667ae21616b9ff">VePack.Utilities.Geometry.LineSegment2D</a>, <a class="el" href="class_ve_pack_1_1_utilities_1_1_geometry_1_1_vector2_d.html#a4b4b32513dc8d9dd0e469c21eb13d9c0">VePack.Utilities.Geometry.Vector2D</a>, <a class="el" href="class_ve_pack_1_1_utilities_1_1_geometry_1_1_vector3_d.html#a48adc0363dfe373fdefca7a57ffbf2b5">VePack.Utilities.Geometry.Vector3D</a></li>
 <li>Longitude&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_point_data.html#a65534692a07078c16e85a23d7070418e">VePack.Plugin.Navigation.WgsPointData</a></li>
 <li>LookAheadDistance&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_map_navigator.html#a890e7eca86b00022c69db272e290a719">VePack.Plugin.Navigation.MapNavigator</a></li>
@@ -163,12 +184,13 @@ $(function() {
 
 
 <h3><a id="index_m" name="index_m"></a>- m -</h3><ul>
+<li>MainGear&#160;:&#160;<a class="el" href="class_ve_pack_1_1_vehicles_1_1_kubota_m_r1000_a_1_1_operation_data.html#a674b52d3b6c5e492faaf655e184bef53">VePack.Vehicles.KubotaMR1000A.OperationData</a></li>
 <li>MapData&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_map_navigator.html#a19ce83bf8f1f1b16142c1301408a6a12">VePack.Plugin.Navigation.MapNavigator</a></li>
 <li>MaxAngle&#160;:&#160;<a class="el" href="class_ve_pack_1_1_connectors_1_1_lidar2_d_1_1_hokuyo_utm_receiver.html#aab80bae9bfc377ffc6d18bf892a280fe">VePack.Connectors.Lidar2D.HokuyoUtmReceiver</a></li>
 <li>Mg1Torque&#160;:&#160;<a class="el" href="class_ve_pack_1_1_vehicles_1_1_toyota_electric_vehicle_1_1_operation_data.html#a1d44da03e920e254e9ed0dc579d3d62b">VePack.Vehicles.ToyotaElectricVehicle.OperationData</a></li>
 <li>Mg2Torque&#160;:&#160;<a class="el" href="class_ve_pack_1_1_vehicles_1_1_toyota_electric_vehicle_1_1_operation_data.html#ab872fb0d3e854da74b0eb2f9c3e071a7">VePack.Vehicles.ToyotaElectricVehicle.OperationData</a></li>
 <li>MinAngle&#160;:&#160;<a class="el" href="class_ve_pack_1_1_connectors_1_1_lidar2_d_1_1_hokuyo_utm_receiver.html#a0a7257f2a6754f09018f55b5511e6298">VePack.Connectors.Lidar2D.HokuyoUtmReceiver</a></li>
-<li>Mode&#160;:&#160;<a class="el" href="class_ve_pack_1_1_vehicles_1_1_kubota_rice_transplanter_1_1_operation_data.html#a6cb2efa4fa4019f78b4712f44fc78fcc">VePack.Vehicles.KubotaRiceTransplanter.OperationData</a>, <a class="el" href="class_ve_pack_1_1_vehicles_1_1_toyota_electric_vehicle_1_1_operation_data.html#a1d3ef33ad1f328f1b03d9e16edd2d25d">VePack.Vehicles.ToyotaElectricVehicle.OperationData</a></li>
+<li>Mode&#160;:&#160;<a class="el" href="class_ve_pack_1_1_vehicles_1_1_kubota_e_p8_d_1_1_operation_data.html#a185b7f2905c9bde16f13f429a335a642">VePack.Vehicles.KubotaEP8D.OperationData</a>, <a class="el" href="class_ve_pack_1_1_vehicles_1_1_toyota_electric_vehicle_1_1_operation_data.html#a1d3ef33ad1f328f1b03d9e16edd2d25d">VePack.Vehicles.ToyotaElectricVehicle.OperationData</a></li>
 </ul>
 
 
@@ -186,10 +208,11 @@ $(function() {
 <li>P&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_lqr.html#a1c27b1255453aa00243a46f2baa9bd3b">VePack.Plugin.Controllers.ModelBased.Lqr</a></li>
 <li>Particles&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_filters_1_1_particle_filter.html#a1cb445f788c8312c1d025db1a3e753ac">VePack.Plugin.Filters.ParticleFilter</a></li>
 <li>Paths&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_map_data.html#a4b6f2ad53f6f7696aa0add2066e65640">VePack.Plugin.Navigation.UtmMapData</a></li>
+<li>PinkLight&#160;:&#160;<a class="el" href="class_ve_pack_1_1_vehicles_1_1_kubota_m_r1000_a_1_1_operation_data.html#a98ff3ec66861831eaf435e3341ecfd9a">VePack.Vehicles.KubotaMR1000A.OperationData</a></li>
 <li>PredictionLength&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_cgmres_solver.html#acd93e41afefbad2740ec838dd4073b3b">VePack.Plugin.Controllers.ModelBased.Steering.Nmpc.NmpcCgmresSolver</a></li>
 <li>PreviousError&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_free_1_1_pid.html#a8c2adb792869552213e7757cf09d1fd0">VePack.Plugin.Controllers.ModelFree.Pid</a></li>
 <li>PreviousError2&#160;:&#160;<a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_free_1_1_pid.html#ad19c2a3388b2a079e112a8f5667f0cf2">VePack.Plugin.Controllers.ModelFree.Pid</a></li>
-<li>Pto&#160;:&#160;<a class="el" href="class_ve_pack_1_1_vehicles_1_1_kubota_tractor_1_1_operation_data.html#a51b608139064a7ae28b10fe3323b345d">VePack.Vehicles.KubotaTractor.OperationData</a>, <a class="el" href="class_ve_pack_1_1_vehicles_1_1_yanmar_tractor_1_1_operation_data.html#a8021060867d8d1b01fcedede91b0dcb5">VePack.Vehicles.YanmarTractor.OperationData</a></li>
+<li>Pto&#160;:&#160;<a class="el" href="class_ve_pack_1_1_vehicles_1_1_kubota_m_r1000_a_1_1_operation_data.html#a8fe0d8636bbd7359c8abc0e2d5c9606c">VePack.Vehicles.KubotaMR1000A.OperationData</a>, <a class="el" href="class_ve_pack_1_1_vehicles_1_1_yanmar_tractor_1_1_operation_data.html#a8021060867d8d1b01fcedede91b0dcb5">VePack.Vehicles.YanmarTractor.OperationData</a></li>
 </ul>
 
 
@@ -205,17 +228,17 @@ $(function() {
 <li>Rate&#160;:&#160;<a class="el" href="class_ve_pack_1_1_utilities_1_1_neural_network_1_1_ada_grad.html#ac97af477fb4969abd7304aa625e6573d">VePack.Utilities.NeuralNetwork.AdaGrad</a>, <a class="el" href="class_ve_pack_1_1_utilities_1_1_neural_network_1_1_adam.html#a09ad97904c1dfa4a1c0dfc56c41293d4">VePack.Utilities.NeuralNetwork.Adam</a>, <a class="el" href="class_ve_pack_1_1_utilities_1_1_neural_network_1_1_sgd.html#aee0ea2aabdb3a5b2f3c76811c24fcc88">VePack.Utilities.NeuralNetwork.Sgd</a></li>
 <li>ReadTimeout&#160;:&#160;<a class="el" href="class_ve_pack_1_1_utilities_1_1_i_o_1_1_named_pipe_client.html#a22b1d1492eb1c80f4117a73b47be9a88">VePack.Utilities.IO.NamedPipeClient</a>, <a class="el" href="class_ve_pack_1_1_utilities_1_1_i_o_1_1_named_pipe_server.html#ac532716fe1d98e1d8502629d1ac0c219">VePack.Utilities.IO.NamedPipeServer</a>, <a class="el" href="class_ve_pack_1_1_utilities_1_1_i_o_1_1_tcp_socket_client.html#aaa6f89c1e93bbedd2974830a1b8f387c">VePack.Utilities.IO.TcpSocketClient</a>, <a class="el" href="class_ve_pack_1_1_utilities_1_1_i_o_1_1_tcp_socket_server.html#a86b285799212c56c7e6afb0c4e419278">VePack.Utilities.IO.TcpSocketServer</a></li>
 <li>Resolution&#160;:&#160;<a class="el" href="class_ve_pack_1_1_connectors_1_1_lidar2_d_1_1_hokuyo_utm_receiver.html#a953b1cc9ea2c329a8711e70d1881f412">VePack.Connectors.Lidar2D.HokuyoUtmReceiver</a></li>
-<li>RightMarker&#160;:&#160;<a class="el" href="class_ve_pack_1_1_vehicles_1_1_kubota_rice_transplanter_1_1_operation_data.html#aa12eeec3b614f8d8d852366ef5a73ca7">VePack.Vehicles.KubotaRiceTransplanter.OperationData</a></li>
+<li>RightMarker&#160;:&#160;<a class="el" href="class_ve_pack_1_1_vehicles_1_1_kubota_e_p8_d_1_1_operation_data.html#a9a4cd20bf06a879746963d26a5613dca">VePack.Vehicles.KubotaEP8D.OperationData</a></li>
 </ul>
 
 
 <h3><a id="index_s" name="index_s"></a>- s -</h3><ul>
-<li>Shuttle&#160;:&#160;<a class="el" href="class_ve_pack_1_1_vehicles_1_1_kubota_tractor_1_1_operation_data.html#adbcf41e2b5d158b5a542e67c521df354">VePack.Vehicles.KubotaTractor.OperationData</a>, <a class="el" href="class_ve_pack_1_1_vehicles_1_1_yanmar_tractor_1_1_operation_data.html#a3f4474461329f8f191cd65e75e64a5ea">VePack.Vehicles.YanmarTractor.OperationData</a></li>
+<li>Shuttle&#160;:&#160;<a class="el" href="class_ve_pack_1_1_vehicles_1_1_kubota_m_r1000_a_1_1_operation_data.html#ac11444faf9852c9402945dd6b103fe36">VePack.Vehicles.KubotaMR1000A.OperationData</a>, <a class="el" href="class_ve_pack_1_1_vehicles_1_1_yanmar_tractor_1_1_operation_data.html#a3f4474461329f8f191cd65e75e64a5ea">VePack.Vehicles.YanmarTractor.OperationData</a></li>
 <li>Slope&#160;:&#160;<a class="el" href="class_ve_pack_1_1_utilities_1_1_geometry_1_1_line2_d.html#a98385b10712a6f686e4d7a64f9b62045">VePack.Utilities.Geometry.Line2D</a></li>
-<li>SpeedLever&#160;:&#160;<a class="el" href="class_ve_pack_1_1_vehicles_1_1_kubota_rice_transplanter_1_1_operation_data.html#a8a0230fb1f640e8bc40cda660b25d5b5">VePack.Vehicles.KubotaRiceTransplanter.OperationData</a></li>
+<li>SpeedLever&#160;:&#160;<a class="el" href="class_ve_pack_1_1_vehicles_1_1_kubota_e_p8_d_1_1_operation_data.html#af096a0ee0ed9e47108d938d5b7d8107c">VePack.Vehicles.KubotaEP8D.OperationData</a></li>
 <li>Start&#160;:&#160;<a class="el" href="class_ve_pack_1_1_utilities_1_1_geometry_1_1_arc2_d.html#aee6fddb148656b52e583cebbb9a656f4">VePack.Utilities.Geometry.Arc2D</a>, <a class="el" href="class_ve_pack_1_1_utilities_1_1_geometry_1_1_line_segment2_d.html#a5f056b6ce4a83209173818e9c2659e61">VePack.Utilities.Geometry.LineSegment2D</a></li>
 <li>Status&#160;:&#160;<a class="el" href="class_ve_pack_1_1_connectors_1_1_can_1_1_lawicel_1_1_can_usb_adapter.html#a0aacd8e4b7684a3f74edf83c68f46c28">VePack.Connectors.Can.Lawicel.CanUsbAdapter</a></li>
-<li>SteeringAngle&#160;:&#160;<a class="el" href="class_ve_pack_1_1_vehicles_1_1_kubota_rice_transplanter_1_1_operation_data.html#a160054ae32797db386049bb700f305cd">VePack.Vehicles.KubotaRiceTransplanter.OperationData</a>, <a class="el" href="class_ve_pack_1_1_vehicles_1_1_kubota_tractor_1_1_operation_data.html#a70074ab97b556dca11455b5912d53c0f">VePack.Vehicles.KubotaTractor.OperationData</a>, <a class="el" href="class_ve_pack_1_1_vehicles_1_1_toyota_electric_vehicle_1_1_operation_data.html#a908d4e172c8d21dfd071a0ce8c1ea043">VePack.Vehicles.ToyotaElectricVehicle.OperationData</a>, <a class="el" href="class_ve_pack_1_1_vehicles_1_1_yanmar_tractor_1_1_operation_data.html#ad0516d689df56a275df8eb733033beb4">VePack.Vehicles.YanmarTractor.OperationData</a></li>
+<li>SteeringAngle&#160;:&#160;<a class="el" href="class_ve_pack_1_1_vehicles_1_1_kubota_e_p8_d_1_1_operation_data.html#a93ed5421ab104678e5beb131c13500e1">VePack.Vehicles.KubotaEP8D.OperationData</a>, <a class="el" href="class_ve_pack_1_1_vehicles_1_1_kubota_m_r1000_a_1_1_operation_data.html#a2908359450b82d8231348a150510fe38">VePack.Vehicles.KubotaMR1000A.OperationData</a>, <a class="el" href="class_ve_pack_1_1_vehicles_1_1_toyota_electric_vehicle_1_1_operation_data.html#a908d4e172c8d21dfd071a0ce8c1ea043">VePack.Vehicles.ToyotaElectricVehicle.OperationData</a>, <a class="el" href="class_ve_pack_1_1_vehicles_1_1_yanmar_tractor_1_1_operation_data.html#ad0516d689df56a275df8eb733033beb4">VePack.Vehicles.YanmarTractor.OperationData</a></li>
 </ul>
 
 
@@ -260,9 +283,12 @@ $(function() {
 <li>Zero&#160;:&#160;<a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html#afba54ccb0fa12675a1513ec92e2ebd36">VePack.Utilities.Geometry.Angle</a>, <a class="el" href="class_ve_pack_1_1_utilities_1_1_geometry_1_1_point2_d.html#ab1ed077f13678263907a5d75e3723afd">VePack.Utilities.Geometry.Point2D</a>, <a class="el" href="class_ve_pack_1_1_utilities_1_1_geometry_1_1_point3_d.html#a495fc512bc4dd90633347900397fd843">VePack.Utilities.Geometry.Point3D</a>, <a class="el" href="class_ve_pack_1_1_utilities_1_1_geometry_1_1_vector2_d.html#a744f56aa48aa71bc1d875e6be780cb3a">VePack.Utilities.Geometry.Vector2D</a>, <a class="el" href="class_ve_pack_1_1_utilities_1_1_geometry_1_1_vector3_d.html#ad2bb42995add0873311877963964485d">VePack.Utilities.Geometry.Vector3D</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
+  </ul>
+</div>
 </body>
 </html>

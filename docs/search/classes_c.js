@@ -1,6 +1,13 @@
 var searchData=
 [
-  ['objectpool_0',['ObjectPool',['../class_ve_pack_1_1_utilities_1_1_object_pool.html',1,'VePack::Utilities']]],
-  ['operationdata_1',['OperationData',['../class_ve_pack_1_1_vehicles_1_1_kubota_rice_transplanter_1_1_operation_data.html',1,'VePack.Vehicles.KubotaRiceTransplanter.OperationData'],['../class_ve_pack_1_1_vehicles_1_1_kubota_tractor_1_1_operation_data.html',1,'VePack.Vehicles.KubotaTractor.OperationData'],['../class_ve_pack_1_1_vehicles_1_1_toyota_electric_vehicle_1_1_operation_data.html',1,'VePack.Vehicles.ToyotaElectricVehicle.OperationData'],['../class_ve_pack_1_1_vehicles_1_1_yanmar_tractor_1_1_operation_data.html',1,'VePack.Vehicles.YanmarTractor.OperationData']]],
-  ['optimizerbase_2',['OptimizerBase',['../class_ve_pack_1_1_utilities_1_1_neural_network_1_1_optimizer_base.html',1,'VePack::Utilities::NeuralNetwork']]]
+  ['namedpipeclient_0',['NamedPipeClient',['../class_ve_pack_1_1_utilities_1_1_i_o_1_1_named_pipe_client.html',1,'VePack::Utilities::IO']]],
+  ['namedpipeserver_1',['NamedPipeServer',['../class_ve_pack_1_1_utilities_1_1_i_o_1_1_named_pipe_server.html',1,'VePack::Utilities::IO']]],
+  ['navihelper_2',['NaviHelper',['../class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html',1,'VePack::Plugin::Navigation']]],
+  ['networkgraph_3',['NetworkGraph',['../class_ve_pack_1_1_utilities_1_1_neural_network_1_1_network_graph.html',1,'VePack::Utilities::NeuralNetwork']]],
+  ['nmpccgmressolver_4',['NmpcCgmresSolver',['../class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_cgmres_solver.html',1,'VePack::Plugin::Controllers::ModelBased::Steering::Nmpc']]],
+  ['nmpcgeometricsteeringmodel_5',['NmpcGeometricSteeringModel',['../class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_geometric_steering_model.html',1,'VePack::Plugin::Controllers::ModelBased::Steering::Nmpc']]],
+  ['nmpcmodel_6',['NmpcModel',['../class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_model.html',1,'VePack::Plugin::Controllers::ModelBased::Steering::Nmpc']]],
+  ['nmpcsteeringcontroller_7',['NmpcSteeringController',['../class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_steering_controller.html',1,'VePack::Plugin::Controllers::ModelBased::Steering::Nmpc']]],
+  ['nnsteeringmodel_8',['NnSteeringModel',['../class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nn_steering_model.html',1,'VePack::Plugin::Controllers::ModelBased::Steering']]],
+  ['nullreceiver_9',['NullReceiver',['../class_ve_pack_1_1_connectors_1_1_null_1_1_null_receiver.html',1,'VePack::Connectors::Null']]]
 ];

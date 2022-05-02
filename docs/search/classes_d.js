@@ -1,11 +1,6 @@
 var searchData=
 [
-  ['particlefilter_0',['ParticleFilter',['../class_ve_pack_1_1_plugin_1_1_filters_1_1_particle_filter.html',1,'VePack::Plugin::Filters']]],
-  ['pfc_1',['Pfc',['../class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_pfc.html',1,'VePack::Plugin::Controllers::ModelBased']]],
-  ['pfcsteeringcontroller_2',['PfcSteeringController',['../class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_pfc_steering_controller.html',1,'VePack::Plugin::Controllers::ModelBased::Steering']]],
-  ['pid_3',['Pid',['../class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_free_1_1_pid.html',1,'VePack::Plugin::Controllers::ModelFree']]],
-  ['point2d_4',['Point2D',['../class_ve_pack_1_1_utilities_1_1_geometry_1_1_point2_d.html',1,'VePack::Utilities::Geometry']]],
-  ['point3d_5',['Point3D',['../class_ve_pack_1_1_utilities_1_1_geometry_1_1_point3_d.html',1,'VePack::Utilities::Geometry']]],
-  ['portmanager_6',['PortManager',['../class_ve_pack_1_1_utilities_1_1_i_o_1_1_port_manager.html',1,'VePack::Utilities::IO']]],
-  ['purepursuit_7',['PurePursuit',['../class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_free_1_1_pure_pursuit.html',1,'VePack::Plugin::Controllers::ModelFree']]]
+  ['objectpool_0',['ObjectPool',['../class_ve_pack_1_1_utilities_1_1_object_pool.html',1,'VePack::Utilities']]],
+  ['operationdata_1',['OperationData',['../class_ve_pack_1_1_vehicles_1_1_kubota_e_p8_d_1_1_operation_data.html',1,'VePack.Vehicles.KubotaEP8D.OperationData'],['../class_ve_pack_1_1_vehicles_1_1_kubota_m_r1000_a_1_1_operation_data.html',1,'VePack.Vehicles.KubotaMR1000A.OperationData'],['../class_ve_pack_1_1_vehicles_1_1_toyota_electric_vehicle_1_1_operation_data.html',1,'VePack.Vehicles.ToyotaElectricVehicle.OperationData'],['../class_ve_pack_1_1_vehicles_1_1_yanmar_tractor_1_1_operation_data.html',1,'VePack.Vehicles.YanmarTractor.OperationData']]],
+  ['optimizerbase_2',['OptimizerBase',['../class_ve_pack_1_1_utilities_1_1_neural_network_1_1_optimizer_base.html',1,'VePack::Utilities::NeuralNetwork']]]
 ];

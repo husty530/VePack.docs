@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['tanh_0',['Tanh',['../class_ve_pack_1_1_utilities_1_1_neural_network_1_1_tanh.html',1,'VePack::Utilities::NeuralNetwork']]],
-  ['tcpsocketclient_1',['TcpSocketClient',['../class_ve_pack_1_1_utilities_1_1_i_o_1_1_tcp_socket_client.html',1,'VePack::Utilities::IO']]],
-  ['tcpsocketserver_2',['TcpSocketServer',['../class_ve_pack_1_1_utilities_1_1_i_o_1_1_tcp_socket_server.html',1,'VePack::Utilities::IO']]],
-  ['textstreambase_3',['TextStreamBase',['../class_ve_pack_1_1_connectors_1_1_text_stream_1_1_text_stream_base.html',1,'VePack::Connectors::TextStream']]]
+  ['serialport_0',['SerialPort',['../class_ve_pack_1_1_utilities_1_1_i_o_1_1_serial_port.html',1,'VePack::Utilities::IO']]],
+  ['sgd_1',['Sgd',['../class_ve_pack_1_1_utilities_1_1_neural_network_1_1_sgd.html',1,'VePack::Utilities::NeuralNetwork']]],
+  ['sigmoid_2',['Sigmoid',['../class_ve_pack_1_1_utilities_1_1_neural_network_1_1_sigmoid.html',1,'VePack::Utilities::NeuralNetwork']]],
+  ['steeringmodel_3',['SteeringModel',['../class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_steering_model.html',1,'VePack::Plugin::Controllers::ModelBased::Steering']]]
 ];

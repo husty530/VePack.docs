@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['tanh_2ecs_0',['Tanh.cs',['../_tanh_8cs.html',1,'']]],
-  ['tcpsocketclient_2ecs_1',['TcpSocketClient.cs',['../_tcp_socket_client_8cs.html',1,'']]],
-  ['tcpsocketserver_2ecs_2',['TcpSocketServer.cs',['../_tcp_socket_server_8cs.html',1,'']]],
-  ['textstreambase_2ecs_3',['TextStreamBase.cs',['../_text_stream_base_8cs.html',1,'']]]
+  ['serialport_2ecs_0',['SerialPort.cs',['../_serial_port_8cs.html',1,'']]],
+  ['sgd_2ecs_1',['Sgd.cs',['../_sgd_8cs.html',1,'']]],
+  ['sigmoid_2ecs_2',['Sigmoid.cs',['../_sigmoid_8cs.html',1,'']]],
+  ['steeringmodel_2ecs_3',['SteeringModel.cs',['../_steering_model_8cs.html',1,'']]]
 ];
