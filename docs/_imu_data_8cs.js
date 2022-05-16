@@ -1,4 +1,4 @@
 var _imu_data_8cs =
 [
-    [ "ImuData", "_imu_data_8cs.html#a47afdf7c3589634cf74da14fd483ef15", null ]
+    [ "ImuData", "_imu_data_8cs.html#a69f370c82d5ad0b8fc249fb9d5b6bc52", null ]
 ];

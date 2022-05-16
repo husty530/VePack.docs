@@ -12,5 +12,5 @@ var _gnss_data_8cs =
       [ "Manual", "_gnss_data_8cs.html#a84f9f1efb8fa069dc3d8f8976755f769ae1ba155a9f2e8c3be94020eef32a0301", null ],
       [ "Simulation", "_gnss_data_8cs.html#a84f9f1efb8fa069dc3d8f8976755f769a4f502b57d2835715eaa382c7d4c32e94", null ]
     ] ],
-    [ "GnssData", "_gnss_data_8cs.html#a07aa484e923d180509e1ab066f604f0c", null ]
+    [ "GnssData", "_gnss_data_8cs.html#a0365bfd2e1c9480e70a1191e21a277e9", null ]
 ];

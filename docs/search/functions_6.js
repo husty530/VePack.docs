@@ -46,6 +46,6 @@ var searchData=
   ['gettotalsize_43',['GetTotalSize',['../class_ve_pack_1_1_utilities_1_1_multidimensional_array.html#ad76f78291e47caafc10bbc4339401513',1,'VePack::Utilities::MultidimensionalArray']]],
   ['getx_44',['GetX',['../class_ve_pack_1_1_utilities_1_1_geometry_1_1_line2_d.html#ac908219d4e9597862451fd11b43d6fc2',1,'VePack.Utilities.Geometry.Line2D.GetX()'],['../class_ve_pack_1_1_utilities_1_1_geometry_1_1_line_segment2_d.html#a8dbb95fa0d7e042c52d06405d6e281a6',1,'VePack.Utilities.Geometry.LineSegment2D.GetX()']]],
   ['gety_45',['GetY',['../class_ve_pack_1_1_utilities_1_1_geometry_1_1_line2_d.html#a5d2d8096e8d38df50dfacd7368bab075',1,'VePack.Utilities.Geometry.Line2D.GetY()'],['../class_ve_pack_1_1_utilities_1_1_geometry_1_1_line_segment2_d.html#ab40342757f61c969c67a6ebaea134c80',1,'VePack.Utilities.Geometry.LineSegment2D.GetY()']]],
-  ['gnssdata_46',['GnssData',['../namespace_ve_pack_1_1_connectors_1_1_gnss.html#a07aa484e923d180509e1ab066f604f0c',1,'VePack::Connectors::Gnss']]],
+  ['gnssdata_46',['GnssData',['../namespace_ve_pack_1_1_connectors_1_1_gnss.html#a0365bfd2e1c9480e70a1191e21a277e9',1,'VePack::Connectors::Gnss']]],
   ['gnssreceiver_47',['GnssReceiver',['../class_ve_pack_1_1_connectors_1_1_gnss_1_1_gnss_receiver.html#a9e5344338dead5c58057120e62d99042',1,'VePack::Connectors::Gnss::GnssReceiver']]]
 ];

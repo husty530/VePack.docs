@@ -13,7 +13,7 @@ var searchData=
   ['iinformationreceiver_3c_20tinformation_20_3e_10',['IInformationReceiver&lt; TInformation &gt;',['../interface_ve_pack_1_1_connectors_1_1_i_information_receiver.html',1,'VePack::Connectors']]],
   ['ilayer_11',['ILayer',['../interface_ve_pack_1_1_utilities_1_1_neural_network_1_1_i_layer.html',1,'VePack::Utilities::NeuralNetwork']]],
   ['ilayer_2ecs_12',['ILayer.cs',['../_i_layer_8cs.html',1,'']]],
-  ['imudata_13',['ImuData',['../namespace_ve_pack_1_1_connectors_1_1_imu.html#a47afdf7c3589634cf74da14fd483ef15',1,'VePack::Connectors::Imu']]],
+  ['imudata_13',['ImuData',['../namespace_ve_pack_1_1_connectors_1_1_imu.html#a69f370c82d5ad0b8fc249fb9d5b6bc52',1,'VePack::Connectors::Imu']]],
   ['imudata_2ecs_14',['ImuData.cs',['../_imu_data_8cs.html',1,'']]],
   ['imuheadingbiascalibrator_15',['ImuHeadingBiasCalibrator',['../class_ve_pack_1_1_connectors_1_1_imu_1_1_imu_heading_bias_calibrator.html#a89dcee0687b02dc5186e83dbaf4d0db2',1,'VePack.Connectors.Imu.ImuHeadingBiasCalibrator.ImuHeadingBiasCalibrator()'],['../class_ve_pack_1_1_connectors_1_1_imu_1_1_imu_heading_bias_calibrator.html',1,'VePack.Connectors.Imu.ImuHeadingBiasCalibrator']]],
   ['imuheadingbiascalibrator_2ecs_16',['ImuHeadingBiasCalibrator.cs',['../_imu_heading_bias_calibrator_8cs.html',1,'']]],
