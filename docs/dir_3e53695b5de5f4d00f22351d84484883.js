@@ -24,5 +24,6 @@ var dir_3e53695b5de5f4d00f22351d84484883 =
     ] ],
     [ "TcpSocketServer.cs", "_tcp_socket_server_8cs.html", [
       [ "VePack.Utilities.IO.TcpSocketServer", "class_ve_pack_1_1_utilities_1_1_i_o_1_1_tcp_socket_server.html", "class_ve_pack_1_1_utilities_1_1_i_o_1_1_tcp_socket_server" ]
-    ] ]
+    ] ],
+    [ "WebSocketStream.cs", "_web_socket_stream_8cs.html", "_web_socket_stream_8cs" ]
 ];

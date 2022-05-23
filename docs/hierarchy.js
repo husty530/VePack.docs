@@ -29,10 +29,11 @@ var hierarchy =
       [ "VePack.Utilities.IO.ICommunicator", "interface_ve_pack_1_1_utilities_1_1_i_o_1_1_i_communicator.html", [
         [ "VePack.Utilities.IO.NamedPipeClient", "class_ve_pack_1_1_utilities_1_1_i_o_1_1_named_pipe_client.html", null ],
         [ "VePack.Utilities.IO.NamedPipeServer", "class_ve_pack_1_1_utilities_1_1_i_o_1_1_named_pipe_server.html", null ],
-        [ "VePack.Utilities.IO.SerialPort", "class_ve_pack_1_1_utilities_1_1_i_o_1_1_serial_port.html", null ],
         [ "VePack.Utilities.IO.TcpSocketClient", "class_ve_pack_1_1_utilities_1_1_i_o_1_1_tcp_socket_client.html", null ],
         [ "VePack.Utilities.IO.TcpSocketServer", "class_ve_pack_1_1_utilities_1_1_i_o_1_1_tcp_socket_server.html", null ]
       ] ],
+      [ "VePack.Utilities.IO.SerialPort", "class_ve_pack_1_1_utilities_1_1_i_o_1_1_serial_port.html", null ],
+      [ "VePack.Utilities.IO.WebSocketStream", "class_ve_pack_1_1_utilities_1_1_i_o_1_1_web_socket_stream.html", null ],
       [ "VePack.Utilities.LapTimer", "class_ve_pack_1_1_utilities_1_1_lap_timer.html", null ],
       [ "VePack.Utilities.ObjectPool< T >", "class_ve_pack_1_1_utilities_1_1_object_pool.html", null ]
     ] ],
