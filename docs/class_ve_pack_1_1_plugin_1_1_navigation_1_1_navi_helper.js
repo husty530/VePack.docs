@@ -2,6 +2,7 @@ var class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper =
 [
     [ "AdjastPathPointsInterval", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html#a4e2c6c2293076aa46b88ba758bc1ee73", null ],
     [ "AdjastPathPointsInterval", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html#a390a908c88096d2b96c3483fceb57d49", null ],
+    [ "GenerateTurnPath", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html#aee8855ca5dfda516822179b05d3051a7", null ],
     [ "GetDistanceTo", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html#a6aec63b9ecbbc7b68fdcc01170d0ecc6", null ],
     [ "GetHeadingError", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html#abd65022d9acdc43cbd87afb3ac9463be", null ],
     [ "GetLateralError", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html#a0c72843362d79d58f074e0ce4c1214d5", null ],
@@ -17,13 +18,15 @@ var class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper =
     [ "IsOnTheLeft", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html#a69cd92858552518036a39dbd22c218a2", null ],
     [ "IsOnTheLineSegment", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html#ab2dfeeb51ae058fb64e2574ce1ed868b", null ],
     [ "LoadMapFromFile", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html#aab40f6bef680511bafab121a784ec029", null ],
-    [ "LoadMapFromJmapFormatText", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html#aebfa81b54e1de91880d9a617b5d2baf8", null ],
+    [ "LoadMapFromJmapFormatText", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html#af78ad105d6e6aa11d9b9f71f68337af4", null ],
     [ "LoadMapFromMapFormatText", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html#a33cd7fc163bcddb7f4ea1423d20abfe5", null ],
     [ "ModifyMapByPlnFile", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html#a80ec697c554e8ca86779978491f72192", null ],
     [ "ModifyMapByPlnFormatText", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html#a7beef988a92a3642f3ef0c07627f602c", null ],
     [ "ModifyPathDirection", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html#a31ae157b973d3438c97bfce36eef3862", null ],
+    [ "ToUtm", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html#a200b23e93ac8a74b76c312a775de2a67", null ],
     [ "ToUtm", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html#a8668c73e52b907e70b7b020169c3600a", null ],
     [ "ToUtm", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html#aa41a1600b303589791acff03b5807e5c", null ],
+    [ "ToWgs", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html#ab0e2f50252b36dffe0e70190d99d2b70", null ],
     [ "ToWgs", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html#a4ef02bf39512b478db744bb1cdd31193", null ],
     [ "ToWgs", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html#a71933db75bd9fd22d899e791fbedc535", null ]
 ];

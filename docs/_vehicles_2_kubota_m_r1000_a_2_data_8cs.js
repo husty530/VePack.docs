@@ -1,10 +1,6 @@
 var _vehicles_2_kubota_m_r1000_a_2_data_8cs =
 [
     [ "VePack.Vehicles.KubotaMR1000A.OperationData", "class_ve_pack_1_1_vehicles_1_1_kubota_m_r1000_a_1_1_operation_data.html", "class_ve_pack_1_1_vehicles_1_1_kubota_m_r1000_a_1_1_operation_data" ],
-    [ "Hitch", "_vehicles_2_kubota_m_r1000_a_2_data_8cs.html#a2ece1c01a82aa0d8f134defa749ced00", [
-      [ "Up", "_vehicles_2_kubota_m_r1000_a_2_data_8cs.html#a2ece1c01a82aa0d8f134defa749ced00a258f49887ef8d14ac268c92b02503aaa", null ],
-      [ "Down", "_vehicles_2_kubota_m_r1000_a_2_data_8cs.html#a2ece1c01a82aa0d8f134defa749ced00a08a38277b0309070706f6652eeae9a53", null ]
-    ] ],
     [ "Horn", "_vehicles_2_kubota_m_r1000_a_2_data_8cs.html#ae16e11b367ad4b2518b408ef527b1d82", [
       [ "Off", "_vehicles_2_kubota_m_r1000_a_2_data_8cs.html#ae16e11b367ad4b2518b408ef527b1d82ad15305d7a4e34e02489c74a5ef542f36", null ],
       [ "On", "_vehicles_2_kubota_m_r1000_a_2_data_8cs.html#ae16e11b367ad4b2518b408ef527b1d82a521c36a31c2762741cf0f8890cbe05e3", null ]
@@ -33,5 +29,5 @@ var _vehicles_2_kubota_m_r1000_a_2_data_8cs =
       [ "Low", "_vehicles_2_kubota_m_r1000_a_2_data_8cs.html#abbdd092ed581daffd4ed1bcebb86452ba28d0edd045e05cf5af64e35ae0c4c6ef", null ],
       [ "High", "_vehicles_2_kubota_m_r1000_a_2_data_8cs.html#abbdd092ed581daffd4ed1bcebb86452ba655d20c1ca69519ca647684edbb2db35", null ]
     ] ],
-    [ "VehicleInformationData", "_vehicles_2_kubota_m_r1000_a_2_data_8cs.html#a730f0b4207b085c6d09e7de7f78392e7", null ]
+    [ "VehicleInformationData", "_vehicles_2_kubota_m_r1000_a_2_data_8cs.html#a4c63f3299b77f38278c896c49ce61d53", null ]
 ];

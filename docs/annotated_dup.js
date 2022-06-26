@@ -39,8 +39,9 @@ var annotated_dup =
                 [ "NmpcModel", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_model.html", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_model" ],
                 [ "NmpcSteeringController", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_steering_controller.html", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_steering_controller" ]
               ] ],
-              [ "CmacSteeringModel", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_cmac_steering_model.html", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_cmac_steering_model" ],
               [ "GeometricSteeringModel", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_geometric_steering_model.html", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_geometric_steering_model" ],
+              [ "ISteeringController", "interface_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_i_steering_controller.html", "interface_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_i_steering_controller" ],
+              [ "LqrSteeringController", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_lqr_steering_controller.html", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_lqr_steering_controller" ],
               [ "NnSteeringModel", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nn_steering_model.html", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nn_steering_model" ],
               [ "PfcSteeringController", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_pfc_steering_controller.html", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_pfc_steering_controller" ],
               [ "SteeringModel", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_steering_model.html", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_steering_model" ]
@@ -62,21 +63,18 @@ var annotated_dup =
           [ "ParticleFilter", "class_ve_pack_1_1_plugin_1_1_filters_1_1_particle_filter.html", "class_ve_pack_1_1_plugin_1_1_filters_1_1_particle_filter" ]
         ] ],
         [ "Navigation", "namespace_ve_pack_1_1_plugin_1_1_navigation.html", [
+          [ "JmapData", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_jmap_data.html", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_jmap_data" ],
           [ "MapNavigator", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_map_navigator.html", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_map_navigator" ],
           [ "NaviHelper", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper" ],
           [ "UtmMapData", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_map_data.html", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_map_data" ],
           [ "UtmPathData", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_path_data.html", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_path_data" ],
           [ "UtmPointData", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_point_data.html", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_point_data" ],
+          [ "WgsMapData", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_map_data.html", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_map_data" ],
           [ "WgsPathData", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_path_data.html", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_path_data" ],
           [ "WgsPointData", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_point_data.html", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_point_data" ]
         ] ]
       ] ],
       [ "Utilities", "namespace_ve_pack_1_1_utilities.html", [
-        [ "Cmac", "namespace_ve_pack_1_1_utilities_1_1_cmac.html", [
-          [ "CmacBundler", "class_ve_pack_1_1_utilities_1_1_cmac_1_1_cmac_bundler.html", "class_ve_pack_1_1_utilities_1_1_cmac_1_1_cmac_bundler" ],
-          [ "CmacNetwork", "class_ve_pack_1_1_utilities_1_1_cmac_1_1_cmac_network.html", "class_ve_pack_1_1_utilities_1_1_cmac_1_1_cmac_network" ],
-          [ "CmacTable", "class_ve_pack_1_1_utilities_1_1_cmac_1_1_cmac_table.html", "class_ve_pack_1_1_utilities_1_1_cmac_1_1_cmac_table" ]
-        ] ],
         [ "Geometry", "namespace_ve_pack_1_1_utilities_1_1_geometry.html", [
           [ "Angle", "struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html", "struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle" ],
           [ "Arc2D", "class_ve_pack_1_1_utilities_1_1_geometry_1_1_arc2_d.html", "class_ve_pack_1_1_utilities_1_1_geometry_1_1_arc2_d" ],
