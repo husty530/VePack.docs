@@ -10,7 +10,7 @@ var dir_6f7e0d5ab9b7cdc1b1e8903b345fe64a =
     [ "LqrSteeringController.cs", "_lqr_steering_controller_8cs.html", [
       [ "VePack.Plugin.Controllers.ModelBased.Steering.LqrSteeringController", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_lqr_steering_controller.html", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_lqr_steering_controller" ]
     ] ],
-    [ "NNSteeringModel.cs", "_n_n_steering_model_8cs.html", [
+    [ "NnSteeringModel.cs", "_nn_steering_model_8cs.html", [
       [ "VePack.Plugin.Controllers.ModelBased.Steering.NnSteeringModel", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nn_steering_model.html", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nn_steering_model" ]
     ] ],
     [ "PfcSteeringController.cs", "_pfc_steering_controller_8cs.html", [

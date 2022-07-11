@@ -14,8 +14,7 @@ var annotated_dup =
           [ "GnssReceiver", "class_ve_pack_1_1_connectors_1_1_gnss_1_1_gnss_receiver.html", "class_ve_pack_1_1_connectors_1_1_gnss_1_1_gnss_receiver" ]
         ] ],
         [ "Imu", "namespace_ve_pack_1_1_connectors_1_1_imu.html", [
-          [ "ImuHeadingBiasCalibrator", "class_ve_pack_1_1_connectors_1_1_imu_1_1_imu_heading_bias_calibrator.html", "class_ve_pack_1_1_connectors_1_1_imu_1_1_imu_heading_bias_calibrator" ],
-          [ "ImuReceiver", "class_ve_pack_1_1_connectors_1_1_imu_1_1_imu_receiver.html", "class_ve_pack_1_1_connectors_1_1_imu_1_1_imu_receiver" ]
+          [ "VN100Receiver", "class_ve_pack_1_1_connectors_1_1_imu_1_1_v_n100_receiver.html", "class_ve_pack_1_1_connectors_1_1_imu_1_1_v_n100_receiver" ]
         ] ],
         [ "Lidar2D", "namespace_ve_pack_1_1_connectors_1_1_lidar2_d.html", [
           [ "HokuyoUtmReceiver", "class_ve_pack_1_1_connectors_1_1_lidar2_d_1_1_hokuyo_utm_receiver.html", "class_ve_pack_1_1_connectors_1_1_lidar2_d_1_1_hokuyo_utm_receiver" ]
@@ -33,12 +32,6 @@ var annotated_dup =
         [ "Controllers", "namespace_ve_pack_1_1_plugin_1_1_controllers.html", [
           [ "ModelBased", "namespace_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based.html", [
             [ "Steering", "namespace_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering.html", [
-              [ "Nmpc", "namespace_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc.html", [
-                [ "NmpcCgmresSolver", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_cgmres_solver.html", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_cgmres_solver" ],
-                [ "NmpcGeometricSteeringModel", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_geometric_steering_model.html", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_geometric_steering_model" ],
-                [ "NmpcModel", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_model.html", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_model" ],
-                [ "NmpcSteeringController", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_steering_controller.html", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_steering_controller" ]
-              ] ],
               [ "GeometricSteeringModel", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_geometric_steering_model.html", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_geometric_steering_model" ],
               [ "ISteeringController", "interface_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_i_steering_controller.html", "interface_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_i_steering_controller" ],
               [ "LqrSteeringController", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_lqr_steering_controller.html", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_lqr_steering_controller" ],
@@ -57,6 +50,11 @@ var annotated_dup =
           ] ]
         ] ],
         [ "Filters", "namespace_ve_pack_1_1_plugin_1_1_filters.html", [
+          [ "Sensor", "namespace_ve_pack_1_1_plugin_1_1_filters_1_1_sensor.html", [
+            [ "HeadingOffsetCorrector", "class_ve_pack_1_1_plugin_1_1_filters_1_1_sensor_1_1_heading_offset_corrector.html", "class_ve_pack_1_1_plugin_1_1_filters_1_1_sensor_1_1_heading_offset_corrector" ],
+            [ "LsmHeadingCorrector", "class_ve_pack_1_1_plugin_1_1_filters_1_1_sensor_1_1_lsm_heading_corrector.html", "class_ve_pack_1_1_plugin_1_1_filters_1_1_sensor_1_1_lsm_heading_corrector" ],
+            [ "TiltCorrector", "class_ve_pack_1_1_plugin_1_1_filters_1_1_sensor_1_1_tilt_corrector.html", "class_ve_pack_1_1_plugin_1_1_filters_1_1_sensor_1_1_tilt_corrector" ]
+          ] ],
           [ "FirFilter", "class_ve_pack_1_1_plugin_1_1_filters_1_1_fir_filter.html", "class_ve_pack_1_1_plugin_1_1_filters_1_1_fir_filter" ],
           [ "KalmanFilter", "class_ve_pack_1_1_plugin_1_1_filters_1_1_kalman_filter.html", "class_ve_pack_1_1_plugin_1_1_filters_1_1_kalman_filter" ],
           [ "MedianFilter", "class_ve_pack_1_1_plugin_1_1_filters_1_1_median_filter.html", "class_ve_pack_1_1_plugin_1_1_filters_1_1_median_filter" ],
@@ -98,11 +96,17 @@ var annotated_dup =
           [ "WebSocketStream", "class_ve_pack_1_1_utilities_1_1_i_o_1_1_web_socket_stream.html", "class_ve_pack_1_1_utilities_1_1_i_o_1_1_web_socket_stream" ]
         ] ],
         [ "NeuralNetwork", "namespace_ve_pack_1_1_utilities_1_1_neural_network.html", [
+          [ "Cmac", "namespace_ve_pack_1_1_utilities_1_1_neural_network_1_1_cmac.html", [
+            [ "CmacBundler", "class_ve_pack_1_1_utilities_1_1_neural_network_1_1_cmac_1_1_cmac_bundler.html", "class_ve_pack_1_1_utilities_1_1_neural_network_1_1_cmac_1_1_cmac_bundler" ],
+            [ "CmacNetwork", "class_ve_pack_1_1_utilities_1_1_neural_network_1_1_cmac_1_1_cmac_network.html", "class_ve_pack_1_1_utilities_1_1_neural_network_1_1_cmac_1_1_cmac_network" ],
+            [ "CmacTable", "class_ve_pack_1_1_utilities_1_1_neural_network_1_1_cmac_1_1_cmac_table.html", "class_ve_pack_1_1_utilities_1_1_neural_network_1_1_cmac_1_1_cmac_table" ]
+          ] ],
           [ "AdaGrad", "class_ve_pack_1_1_utilities_1_1_neural_network_1_1_ada_grad.html", "class_ve_pack_1_1_utilities_1_1_neural_network_1_1_ada_grad" ],
           [ "Adam", "class_ve_pack_1_1_utilities_1_1_neural_network_1_1_adam.html", "class_ve_pack_1_1_utilities_1_1_neural_network_1_1_adam" ],
           [ "Affine", "class_ve_pack_1_1_utilities_1_1_neural_network_1_1_affine.html", "class_ve_pack_1_1_utilities_1_1_neural_network_1_1_affine" ],
           [ "IActivationLayer", "interface_ve_pack_1_1_utilities_1_1_neural_network_1_1_i_activation_layer.html", null ],
           [ "ILayer", "interface_ve_pack_1_1_utilities_1_1_neural_network_1_1_i_layer.html", "interface_ve_pack_1_1_utilities_1_1_neural_network_1_1_i_layer" ],
+          [ "INeuralNetwork", "interface_ve_pack_1_1_utilities_1_1_neural_network_1_1_i_neural_network.html", "interface_ve_pack_1_1_utilities_1_1_neural_network_1_1_i_neural_network" ],
           [ "IOptimizer", "interface_ve_pack_1_1_utilities_1_1_neural_network_1_1_i_optimizer.html", "interface_ve_pack_1_1_utilities_1_1_neural_network_1_1_i_optimizer" ],
           [ "ITunableLayer", "interface_ve_pack_1_1_utilities_1_1_neural_network_1_1_i_tunable_layer.html", "interface_ve_pack_1_1_utilities_1_1_neural_network_1_1_i_tunable_layer" ],
           [ "LeakyRelu", "class_ve_pack_1_1_utilities_1_1_neural_network_1_1_leaky_relu.html", "class_ve_pack_1_1_utilities_1_1_neural_network_1_1_leaky_relu" ],
@@ -114,9 +118,10 @@ var annotated_dup =
           [ "Tanh", "class_ve_pack_1_1_utilities_1_1_neural_network_1_1_tanh.html", "class_ve_pack_1_1_utilities_1_1_neural_network_1_1_tanh" ],
           [ "Unit", "class_ve_pack_1_1_utilities_1_1_neural_network_1_1_unit.html", "class_ve_pack_1_1_utilities_1_1_neural_network_1_1_unit" ]
         ] ],
+        [ "Csv2Json", "class_ve_pack_1_1_utilities_1_1_csv2_json.html", "class_ve_pack_1_1_utilities_1_1_csv2_json" ],
         [ "DataLogger", "class_ve_pack_1_1_utilities_1_1_data_logger.html", "class_ve_pack_1_1_utilities_1_1_data_logger" ],
         [ "Freq", "struct_ve_pack_1_1_utilities_1_1_freq.html", "struct_ve_pack_1_1_utilities_1_1_freq" ],
-        [ "Json2CsvConverter", "class_ve_pack_1_1_utilities_1_1_json2_csv_converter.html", "class_ve_pack_1_1_utilities_1_1_json2_csv_converter" ],
+        [ "Json2Csv", "class_ve_pack_1_1_utilities_1_1_json2_csv.html", "class_ve_pack_1_1_utilities_1_1_json2_csv" ],
         [ "LapTimer", "class_ve_pack_1_1_utilities_1_1_lap_timer.html", "class_ve_pack_1_1_utilities_1_1_lap_timer" ],
         [ "MathEx", "class_ve_pack_1_1_utilities_1_1_math_ex.html", "class_ve_pack_1_1_utilities_1_1_math_ex" ],
         [ "MultidimensionalArray", "class_ve_pack_1_1_utilities_1_1_multidimensional_array.html", "class_ve_pack_1_1_utilities_1_1_multidimensional_array" ],

@@ -100,16 +100,16 @@ Inheritance diagram for VePack.Plugin.Controllers.ModelBased.Steering.PfcSteerin
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a862e759577fd267275b7629b36839bbd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_pfc_steering_controller.html#a862e759577fd267275b7629b36839bbd">PfcSteeringController</a> (<a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_steering_model.html">SteeringModel</a> model, double attenuationRate, int[] coincidenceIndexes, <a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html">Angle</a> maxSteering=default, <a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html">Angle</a> maxSteeringSpeed=default)</td></tr>
-<tr class="separator:a862e759577fd267275b7629b36839bbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0650b5c7daf61c2e4eaace9fb379f20"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_pfc_steering_controller.html#aa0650b5c7daf61c2e4eaace9fb379f20">PfcSteeringController</a> (<a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_steering_model.html">SteeringModel</a> model, int[] coincidenceIndexes, Func&lt; int, double[], double[]&gt; calcCoincidencePoint, double headingGain, <a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html">Angle</a> maxSteering, <a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html">Angle</a> maxSteeringSpeed)</td></tr>
+<tr class="separator:aa0650b5c7daf61c2e4eaace9fb379f20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2e93804ae9eae4c78d5dca3b78e7ef6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html">Angle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_pfc_steering_controller.html#ad2e93804ae9eae4c78d5dca3b78e7ef6">GetSteeringAngle</a> (double lateralError, <a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html">Angle</a> headingError, <a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html">Angle</a> steeringAngle)</td></tr>
 <tr class="separator:ad2e93804ae9eae4c78d5dca3b78e7ef6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9546ba03467e199b4aec0cd625f6609"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html">Angle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_i_steering_controller.html#ac9546ba03467e199b4aec0cd625f6609">GetSteeringAngle</a> (double lateralError, <a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html">Angle</a> headingError, <a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html">Angle</a> steeringAngle)</td></tr>
 <tr class="separator:ac9546ba03467e199b4aec0cd625f6609"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a862e759577fd267275b7629b36839bbd" name="a862e759577fd267275b7629b36839bbd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a862e759577fd267275b7629b36839bbd">&#9670;&nbsp;</a></span>PfcSteeringController()</h2>
+<a id="aa0650b5c7daf61c2e4eaace9fb379f20" name="aa0650b5c7daf61c2e4eaace9fb379f20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0650b5c7daf61c2e4eaace9fb379f20">&#9670;&nbsp;</a></span>PfcSteeringController()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -123,26 +123,32 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>attenuationRate</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">int[]&#160;</td>
           <td class="paramname"><em>coincidenceIndexes</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html">Angle</a>&#160;</td>
-          <td class="paramname"><em>maxSteering</em> = <code>default</code>, </td>
+          <td class="paramtype">Func&lt; int, double[], double[]&gt;&#160;</td>
+          <td class="paramname"><em>calcCoincidencePoint</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>headingGain</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html">Angle</a>&#160;</td>
-          <td class="paramname"><em>maxSteeringSpeed</em> = <code>default</code>&#160;</td>
+          <td class="paramname"><em>maxSteering</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_ve_pack_1_1_utilities_1_1_geometry_1_1_angle.html">Angle</a>&#160;</td>
+          <td class="paramname"><em>maxSteeringSpeed</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -157,6 +163,8 @@ Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">model</td><td>車両モデル</td></tr>
     <tr><td class="paramname">coincidenceIndexes</td><td>軌跡一致点の時間インデックス</td></tr>
+    <tr><td class="paramname">calcCoincidencePoint</td><td>軌跡一致点の計算コールバック関数</td></tr>
+    <tr><td class="paramname">headingGain</td><td>方位偏差に対するゲインのスケール</td></tr>
     <tr><td class="paramname">maxSteering</td><td>最大舵角(絶対値)</td></tr>
     <tr><td class="paramname">maxSteeringSpeed</td><td>最大舵角速度(絶対値)</td></tr>
   </table>

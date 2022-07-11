@@ -10,11 +10,15 @@ var hierarchy =
     ] ],
     [ "VePack.Connectors.Can.Lawicel.CanMessage", "class_ve_pack_1_1_connectors_1_1_can_1_1_lawicel_1_1_can_message.html", null ],
     [ "VePack.Connectors.Can.Lawicel.CanUsbOption", "class_ve_pack_1_1_connectors_1_1_can_1_1_lawicel_1_1_can_usb_option.html", null ],
+    [ "VePack.Utilities.NeuralNetwork.Cmac.CmacNetwork", "class_ve_pack_1_1_utilities_1_1_neural_network_1_1_cmac_1_1_cmac_network.html", null ],
+    [ "VePack.Utilities.NeuralNetwork.Cmac.CmacTable", "class_ve_pack_1_1_utilities_1_1_neural_network_1_1_cmac_1_1_cmac_table.html", null ],
+    [ "VePack.Utilities.Csv2Json", "class_ve_pack_1_1_utilities_1_1_csv2_json.html", null ],
     [ "Exception", null, [
       [ "VePack.Utilities.VePackInternalException", "class_ve_pack_1_1_utilities_1_1_ve_pack_internal_exception.html", null ]
     ] ],
     [ "VePack.Plugin.Filters.FirFilter", "class_ve_pack_1_1_plugin_1_1_filters_1_1_fir_filter.html", null ],
     [ "VePack.Utilities.Freq", "struct_ve_pack_1_1_utilities_1_1_freq.html", null ],
+    [ "VePack.Plugin.Filters.Sensor.HeadingOffsetCorrector", "class_ve_pack_1_1_plugin_1_1_filters_1_1_sensor_1_1_heading_offset_corrector.html", null ],
     [ "IDisposable", null, [
       [ "VePack.Connectors.Can.Lawicel.CanUsbAdapter", "class_ve_pack_1_1_connectors_1_1_can_1_1_lawicel_1_1_can_usb_adapter.html", null ],
       [ "VePack.Connectors.IInformationReceiver< T >", "interface_ve_pack_1_1_connectors_1_1_i_information_receiver.html", [
@@ -47,7 +51,7 @@ var hierarchy =
       [ "VePack.Connectors.Gnss.GnssReceiver", "class_ve_pack_1_1_connectors_1_1_gnss_1_1_gnss_receiver.html", null ]
     ] ],
     [ "VePack.Connectors.IInformationReceiver< ImuData >", "interface_ve_pack_1_1_connectors_1_1_i_information_receiver.html", [
-      [ "VePack.Connectors.Imu.ImuReceiver", "class_ve_pack_1_1_connectors_1_1_imu_1_1_imu_receiver.html", null ]
+      [ "VePack.Connectors.Imu.VN100Receiver", "class_ve_pack_1_1_connectors_1_1_imu_1_1_v_n100_receiver.html", null ]
     ] ],
     [ "VePack.Connectors.IInformationReceiver< LidarData2D >", "interface_ve_pack_1_1_connectors_1_1_i_information_receiver.html", [
       [ "VePack.Connectors.Lidar2D.HokuyoUtmReceiver", "class_ve_pack_1_1_connectors_1_1_lidar2_d_1_1_hokuyo_utm_receiver.html", null ]
@@ -68,7 +72,10 @@ var hierarchy =
         [ "VePack.Utilities.NeuralNetwork.Unit", "class_ve_pack_1_1_utilities_1_1_neural_network_1_1_unit.html", null ]
       ] ]
     ] ],
-    [ "VePack.Connectors.Imu.ImuHeadingBiasCalibrator", "class_ve_pack_1_1_connectors_1_1_imu_1_1_imu_heading_bias_calibrator.html", null ],
+    [ "VePack.Utilities.NeuralNetwork.INeuralNetwork", "interface_ve_pack_1_1_utilities_1_1_neural_network_1_1_i_neural_network.html", [
+      [ "VePack.Utilities.NeuralNetwork.Cmac.CmacBundler", "class_ve_pack_1_1_utilities_1_1_neural_network_1_1_cmac_1_1_cmac_bundler.html", null ],
+      [ "VePack.Utilities.NeuralNetwork.NetworkGraph", "class_ve_pack_1_1_utilities_1_1_neural_network_1_1_network_graph.html", null ]
+    ] ],
     [ "VePack.Connectors.IOperationSender< TOperation >", "interface_ve_pack_1_1_connectors_1_1_i_operation_sender.html", [
       [ "VePack.Connectors.Can.CanBase< TOperation, TInformation >", "class_ve_pack_1_1_connectors_1_1_can_1_1_can_base.html", null ],
       [ "VePack.Connectors.TextStream.TextStreamBase< TOperation, TInformation >", "class_ve_pack_1_1_connectors_1_1_text_stream_1_1_text_stream_base.html", null ]
@@ -85,7 +92,7 @@ var hierarchy =
       [ "VePack.Plugin.Controllers.ModelBased.Steering.PfcSteeringController", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_pfc_steering_controller.html", null ]
     ] ],
     [ "VePack.Plugin.Navigation.JmapData", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_jmap_data.html", null ],
-    [ "VePack.Utilities.Json2CsvConverter", "class_ve_pack_1_1_utilities_1_1_json2_csv_converter.html", null ],
+    [ "VePack.Utilities.Json2Csv", "class_ve_pack_1_1_utilities_1_1_json2_csv.html", null ],
     [ "VePack.Plugin.Filters.KalmanFilter", "class_ve_pack_1_1_plugin_1_1_filters_1_1_kalman_filter.html", null ],
     [ "VePack.Utilities.Geometry.Line2D", "class_ve_pack_1_1_utilities_1_1_geometry_1_1_line2_d.html", [
       [ "VePack.Utilities.Geometry.LineSegment2D", "class_ve_pack_1_1_utilities_1_1_geometry_1_1_line_segment2_d.html", null ]
@@ -98,17 +105,12 @@ var hierarchy =
       ] ]
     ] ],
     [ "VePack.Plugin.Controllers.ModelBased.Lqr", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_lqr.html", null ],
+    [ "VePack.Plugin.Filters.Sensor.LsmHeadingCorrector", "class_ve_pack_1_1_plugin_1_1_filters_1_1_sensor_1_1_lsm_heading_corrector.html", null ],
     [ "VePack.Plugin.Navigation.MapNavigator", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_map_navigator.html", null ],
     [ "VePack.Utilities.MathEx", "class_ve_pack_1_1_utilities_1_1_math_ex.html", null ],
     [ "VePack.Plugin.Filters.MedianFilter", "class_ve_pack_1_1_plugin_1_1_filters_1_1_median_filter.html", null ],
     [ "VePack.Utilities.MultidimensionalArray", "class_ve_pack_1_1_utilities_1_1_multidimensional_array.html", null ],
     [ "VePack.Plugin.Navigation.NaviHelper", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_navi_helper.html", null ],
-    [ "VePack.Utilities.NeuralNetwork.NetworkGraph", "class_ve_pack_1_1_utilities_1_1_neural_network_1_1_network_graph.html", null ],
-    [ "VePack.Plugin.Controllers.ModelBased.Steering.Nmpc.NmpcCgmresSolver", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_cgmres_solver.html", null ],
-    [ "VePack.Plugin.Controllers.ModelBased.Steering.Nmpc.NmpcModel", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_model.html", [
-      [ "VePack.Plugin.Controllers.ModelBased.Steering.Nmpc.NmpcGeometricSteeringModel", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_geometric_steering_model.html", null ]
-    ] ],
-    [ "VePack.Plugin.Controllers.ModelBased.Steering.Nmpc.NmpcSteeringController", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_steering_1_1_nmpc_1_1_nmpc_steering_controller.html", null ],
     [ "VePack.Vehicles.KubotaEP8D.OperationData", "class_ve_pack_1_1_vehicles_1_1_kubota_e_p8_d_1_1_operation_data.html", null ],
     [ "VePack.Vehicles.KubotaMR1000A.OperationData", "class_ve_pack_1_1_vehicles_1_1_kubota_m_r1000_a_1_1_operation_data.html", null ],
     [ "VePack.Vehicles.ToyotaElectricVehicle.OperationData", "class_ve_pack_1_1_vehicles_1_1_toyota_electric_vehicle_1_1_operation_data.html", null ],
@@ -119,6 +121,7 @@ var hierarchy =
     [ "VePack.Utilities.IO.PortManager", "class_ve_pack_1_1_utilities_1_1_i_o_1_1_port_manager.html", null ],
     [ "VePack.Plugin.Controllers.ModelFree.PurePursuit", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_free_1_1_pure_pursuit.html", null ],
     [ "VePack.Plugin.Controllers.ModelBased.RiccatiEquation", "class_ve_pack_1_1_plugin_1_1_controllers_1_1_model_based_1_1_riccati_equation.html", null ],
+    [ "VePack.Plugin.Filters.Sensor.TiltCorrector", "class_ve_pack_1_1_plugin_1_1_filters_1_1_sensor_1_1_tilt_corrector.html", null ],
     [ "VePack.Plugin.Navigation.UtmMapData", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_map_data.html", null ],
     [ "VePack.Plugin.Navigation.UtmPathData", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_path_data.html", null ],
     [ "VePack.Plugin.Navigation.WgsMapData", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_wgs_map_data.html", null ],

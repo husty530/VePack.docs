@@ -9,6 +9,6 @@ var searchData=
   ['nmpcgeometricsteeringmodel_2ecs_6',['NmpcGeometricSteeringModel.cs',['../_nmpc_geometric_steering_model_8cs.html',1,'']]],
   ['nmpcmodel_2ecs_7',['NmpcModel.cs',['../_nmpc_model_8cs.html',1,'']]],
   ['nmpcsteeringcontroller_2ecs_8',['NmpcSteeringController.cs',['../_nmpc_steering_controller_8cs.html',1,'']]],
-  ['nnsteeringmodel_2ecs_9',['NNSteeringModel.cs',['../_n_n_steering_model_8cs.html',1,'']]],
+  ['nnsteeringmodel_2ecs_9',['NnSteeringModel.cs',['../_nn_steering_model_8cs.html',1,'']]],
   ['nullreceiver_2ecs_10',['NullReceiver.cs',['../_null_receiver_8cs.html',1,'']]]
 ];

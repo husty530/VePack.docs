@@ -8,5 +8,6 @@ var searchData=
   ['linearstatemodel_2ecs_5',['LinearStateModel.cs',['../_linear_state_model_8cs.html',1,'']]],
   ['linesegment2d_2ecs_6',['LineSegment2D.cs',['../_line_segment2_d_8cs.html',1,'']]],
   ['lqr_2ecs_7',['Lqr.cs',['../_lqr_8cs.html',1,'']]],
-  ['lqrsteeringcontroller_2ecs_8',['LqrSteeringController.cs',['../_lqr_steering_controller_8cs.html',1,'']]]
+  ['lqrsteeringcontroller_2ecs_8',['LqrSteeringController.cs',['../_lqr_steering_controller_8cs.html',1,'']]],
+  ['lsmheadingcorrector_2ecs_9',['LsmHeadingCorrector.cs',['../_lsm_heading_corrector_8cs.html',1,'']]]
 ];

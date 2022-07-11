@@ -1,5 +1,6 @@
 var class_ve_pack_1_1_utilities_1_1_math_ex =
 [
+    [ "Factorial", "class_ve_pack_1_1_utilities_1_1_math_ex.html#a08307c4b941cf91ad203d64ef05d9829", null ],
     [ "InsideOf< T >", "class_ve_pack_1_1_utilities_1_1_math_ex.html#a2e15203b7bde6472716380a56aab0ece", null ],
     [ "Median< T >", "class_ve_pack_1_1_utilities_1_1_math_ex.html#ae410b0a6517b1adec73339083574de1b", null ],
     [ "OrAbove< T >", "class_ve_pack_1_1_utilities_1_1_math_ex.html#aabd7fb4818e801c4a189fbc31ce13996", null ],

@@ -8,6 +8,7 @@ var class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_path_data =
     [ "ExtendLast", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_path_data.html#aa4357a12233d1e19320eed59572e092a", null ],
     [ "GetReverse", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_path_data.html#ae2ed8ba97a3b86d0e8222ed3d6f4bb51", null ],
     [ "GetSegment", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_path_data.html#a7b0c1b1fbdbee5b9ec4e5c00a4770592", null ],
+    [ "GetTotalLength", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_path_data.html#a169ce3cd7a73d157038ee2e53cc3d687", null ],
     [ "Insert", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_path_data.html#ada11fa1af2910ace63e053b42c9134cd", null ],
     [ "Remove", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_path_data.html#a8d17f09c43e08eb099f538461c2007a7", null ],
     [ "RemoveAt", "class_ve_pack_1_1_plugin_1_1_navigation_1_1_utm_path_data.html#aa16ad10454ba5b6d427f836dd4626dae", null ],

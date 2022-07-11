@@ -3,6 +3,7 @@ var class_ve_pack_1_1_utilities_1_1_geometry_1_1_vector3_d =
     [ "Vector3D", "class_ve_pack_1_1_utilities_1_1_geometry_1_1_vector3_d.html#a06ba060945fead9fe23c16aaccd7bedd", null ],
     [ "Vector3D", "class_ve_pack_1_1_utilities_1_1_geometry_1_1_vector3_d.html#a30638d5a25a326a0884e719ace429658", null ],
     [ "Clone", "class_ve_pack_1_1_utilities_1_1_geometry_1_1_vector3_d.html#a80c6a950355c2c334e262640e7355bca", null ],
+    [ "Deconstruct", "class_ve_pack_1_1_utilities_1_1_geometry_1_1_vector3_d.html#a777062dd01bd5c76ffcf79f1d9859623", null ],
     [ "Equals", "class_ve_pack_1_1_utilities_1_1_geometry_1_1_vector3_d.html#aa40378831f2a285d8bf7395ef6d953a7", null ],
     [ "Equals", "class_ve_pack_1_1_utilities_1_1_geometry_1_1_vector3_d.html#a34b0402724d0e0267ea5b10589eae748", null ],
     [ "GetAngle", "class_ve_pack_1_1_utilities_1_1_geometry_1_1_vector3_d.html#acf84364c816d3a2ecb06b54d541c160d", null ],

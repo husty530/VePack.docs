@@ -2,6 +2,7 @@ var class_ve_pack_1_1_utilities_1_1_geometry_1_1_point3_d =
 [
     [ "Point3D", "class_ve_pack_1_1_utilities_1_1_geometry_1_1_point3_d.html#a6c43152611e7afdeaf85ff2cc5331c58", null ],
     [ "Clone", "class_ve_pack_1_1_utilities_1_1_geometry_1_1_point3_d.html#ab32f3154a73662f8acfa7a85b5124d75", null ],
+    [ "Deconstruct", "class_ve_pack_1_1_utilities_1_1_geometry_1_1_point3_d.html#a75c8c7be5709089f958dcfef998d1f68", null ],
     [ "DistanceTo", "class_ve_pack_1_1_utilities_1_1_geometry_1_1_point3_d.html#abecf7b4ec3de6ee60ecad2c2dde46a10", null ],
     [ "Equals", "class_ve_pack_1_1_utilities_1_1_geometry_1_1_point3_d.html#aa308d7d772cec7fe1cc4b568f8aff554", null ],
     [ "Equals", "class_ve_pack_1_1_utilities_1_1_geometry_1_1_point3_d.html#af344a4a241f6949dc4215c34cf86c252", null ],

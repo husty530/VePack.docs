@@ -3,6 +3,7 @@ var class_ve_pack_1_1_utilities_1_1_geometry_1_1_vector2_d =
     [ "Vector2D", "class_ve_pack_1_1_utilities_1_1_geometry_1_1_vector2_d.html#aed4bdf0530ada11993f906ddc361e9e2", null ],
     [ "Vector2D", "class_ve_pack_1_1_utilities_1_1_geometry_1_1_vector2_d.html#aae3e7e7f8e35a58493740c2757d6e3e8", null ],
     [ "Clone", "class_ve_pack_1_1_utilities_1_1_geometry_1_1_vector2_d.html#a53b27b74785647d91f888abf12c7e2e5", null ],
+    [ "Deconstruct", "class_ve_pack_1_1_utilities_1_1_geometry_1_1_vector2_d.html#ae62720955576258e28424864d11cd0fa", null ],
     [ "Equals", "class_ve_pack_1_1_utilities_1_1_geometry_1_1_vector2_d.html#aaf99b760d18a00ffbac29ee5a608b145", null ],
     [ "Equals", "class_ve_pack_1_1_utilities_1_1_geometry_1_1_vector2_d.html#aa51d65de8d05dc1e9afd44a056bb984e", null ],
     [ "GetClockwiseAngleFrom", "class_ve_pack_1_1_utilities_1_1_geometry_1_1_vector2_d.html#ad7b78e4747d4dce7e5e2192127fb63f5", null ],
